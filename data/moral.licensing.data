@@ -1,0 +1,58 @@
+Vertex betweenness
+
+Meijers: 9.00
+Monin: 8.00
+Murnighan: 8.00
+Cornelissen: 6.00
+Zhong: 5.00
+Effron: 2.00
+
+
+Clusters
+
+Blanken, Van de Ven, Zeelenberg, Meijers, Noordewier, Verlegh, Smit
+
+Bradley-Geist, King, Skorinko, Hebl, McKenna
+
+Brown, Tamborski, Wang, Barnes, Mumford, Connely, Devenport
+
+Cornelissen, Bashshur, Rode, Le Menestrel, Karelaia, Soyer
+
+Effron, Cameron, Monin, Merritt, Fein, Savitsky, Tuller, Miller
+
+Jordan, Mullen, Murnighan, Mazar, Zhong, Ku, Lount
+
+
+Edge betweenness
+
+Monin, Miller: 7.00
+Murnighan, Zhong: 6.00
+Mazar, Zhong: 6.00
+Jordan, Murnighan: 5.00
+Mullen, Murnighan: 5.00
+Cornelissen, Soyer: 4.00
+Cornelissen, Karelaia: 4.00
+Meijers, Smit: 4.00
+Zeelenberg, Meijers: 4.00
+Blanken, Meijers: 4.00
+Meijers, Noordewier: 4.00
+Meijers, Verlegh: 4.00
+Cameron, Monin: 4.00
+Van de Ven, Meijers: 4.00
+Cornelissen, Le Menestrel: 3.00
+Murnighan, Lount: 3.00
+Cornelissen, Bashshur: 3.00
+Cornelissen, Rode: 3.00
+Murnighan, Ku: 3.00
+Effron, Cameron: 3.00
+Monin, Savitsky: 2.50
+Monin, Fein: 2.50
+Monin, Tuller: 2.50
+Monin, Merritt: 2.50
+Zhong, Lount: 2.00
+Zhong, Ku: 2.00
+Effron, Monin: 2.00
+Effron, Savitsky: 1.50
+Effron, Fein: 1.50
+Effron, Tuller: 1.50
+Effron, Merritt: 1.50

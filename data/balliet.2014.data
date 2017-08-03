@@ -1,0 +1,97 @@
+Vertex betweenness
+
+Yamagishi: 125.0
+Platow: 84.0
+Van Vugt: 23.0
+Jin: 19.0
+De Cremer: 18.0
+Wilson: 8.0
+Ploner: 6.5
+Rustichini: 4.0
+Liu: 4.0
+Kramer: 2.0
+Mifune: 1.0
+Güth: 0.5
+
+
+Clusters
+
+Balliet, Tybur, Wu, Antonellis, Van Lange
+
+Banuri, Eckel, Wilson, Whitt, Chun, Kayatani
+
+Charness, Rigotti, Rustichini, Ioannou, Qi
+
+De Cremer, Van Knippenberg, van Dijk, van Leeuwen, Van Vugt, Giner-Sorolla, Piazza, Vasiljevic, Janssen, Hart
+
+Foddy, Platow, Yamagishi, Jin, Shinotsuka, Kiyonari, Mifune, Hashimoto, Durante, Williams, Garrett, Walshe, Cincotta, Barutchu, Takahashi, Liu, Wang, Lin, Yu, Makimura, Pauling
+
+Guala, Mittone, Ploner, Güth, Levati, Regner
+
+Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler
+
+Wrightsman, Davis, Lucker, Bruininks, Evans, Wilde, Clark
+
+
+Edge betweenness
+
+Platow, Yamagishi: 77.0
+Yamagishi, Jin: 38.0
+Jin, Shinotsuka: 20.0
+De Cremer, Van Vugt: 20.0
+Yamagishi, Hashimoto: 18.0
+Yamagishi, Pauling: 15.5
+Platow, Cincotta: 15.0
+Yamagishi, Takahashi: 15.0
+Platow, Garrett: 15.0
+Platow, Durante: 15.0
+Platow, Walshe: 15.0
+Platow, Williams: 15.0
+Platow, Barutchu: 15.0
+Yamagishi, Mifune: 15.0
+Yamagishi, Lin: 15.0
+Yamagishi, Yu: 15.0
+Yamagishi, Wang: 15.0
+Yamagishi, Liu: 13.5
+Yamagishi, Kiyonari: 11.0
+Yamagishi, Makimura: 11.0
+Foddy, Yamagishi: 11.0
+Van Vugt, Hart: 9.0
+Van Vugt, Piazza: 7.0
+Platow, Kiyonari: 7.0
+Platow, Makimura: 7.0
+Foddy, Platow: 7.0
+De Cremer, Van Knippenberg: 7.0
+Van Vugt, Vasiljevic: 7.0
+Van Vugt, Giner-Sorolla: 7.0
+De Cremer, van Leeuwen: 7.0
+De Cremer, van Dijk: 7.0
+Wilson, Whitt: 5.0
+Van Vugt, Janssen: 5.0
+Banuri, Wilson: 4.0
+Wilson, Kayatani: 4.0
+Eckel, Wilson: 4.0
+Wilson, Chun: 4.0
+Mittone, Ploner: 4.0
+De Cremer, Janssen: 4.0
+Guala, Ploner: 4.0
+Mifune, Liu: 3.5
+Ploner, Levati: 3.5
+Ploner, Regner: 3.5
+Liu, Pauling: 3.0
+Rigotti, Rustichini: 3.0
+Ploner, Güth: 3.0
+Charness, Rustichini: 3.0
+Rustichini, Qi: 3.0
+Rustichini, Ioannou: 3.0
+Kramer, Goldman: 3.0
+Takahashi, Liu: 2.0
+Mifune, Hashimoto: 2.0
+Kramer, Thompson: 2.0
+Kramer, Valley: 2.0
+Liu, Lin: 2.0
+Liu, Yu: 2.0
+Liu, Wang: 2.0
+Mifune, Pauling: 1.5
+Güth, Levati: 1.5
+Güth, Regner: 1.5

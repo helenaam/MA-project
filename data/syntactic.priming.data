@@ -1,0 +1,113 @@
+Vertex betweenness
+
+Pickering: 305.33
+Branigan: 171.33
+Bernolet: 168.67
+Hartsuiker: 79.67
+Bock: 63.00
+Chang: 40.00
+Cleland: 31.00
+McLean: 25.33
+Ferreira: 13.00
+Schoonbaert: 12.67
+Kaschak: 5.00
+Scheepers: 2.00
+Desmet: 2.00
+van Gompel: 2.00
+
+
+Clusters
+
+Bernolet, Hartsuiker, Pickering, Branigan, Cleland, McLean, Cai, Sturt, Fleischer, Flett, Schoonbaert, Speybroeck, Vanderelst, Kolk, Veltkamp, Westenberg, Ivanova, Costa, Melinger, Messenger, Santesteban, Slocombe, Alvarez, Jellema, Burnett, Fischer, Levita, Verreyt, Bogaerts, Cop, De Letter, Hemelsoet, Duyck
+
+Bock, Griffin, Dell, Chang, Onishi, Loebell, Morey, Ferreira, Wilson, Cohen, Rowland, Ambridge, Pine, Lieven, Slevc
+
+Chen, Jia, Wang, Dunlap, Shin
+
+Coyle, Kaschak, Borreggine, Loney, Kutta
+
+
+Edge betweenness
+
+Bernolet, Pickering: 149.17
+Pickering, Branigan: 134.50
+Hartsuiker, Pickering: 69.67
+Bock, Chang: 40.00
+Pickering, Cleland: 38.33
+Pickering, Schoonbaert: 32.17
+Cleland, Melinger: 32.00
+Hartsuiker, Kolk: 32.00
+Hartsuiker, Westenberg: 32.00
+Pickering, Cai: 31.00
+Pickering, Sturt: 31.00
+Branigan, Jellema: 27.00
+Bernolet, Duyck: 27.00
+Branigan, Slocombe: 27.00
+Branigan, Fischer: 27.00
+Branigan, Alvarez: 27.00
+Branigan, Burnett: 27.00
+Branigan, Levita: 27.00
+Bernolet, Verreyt: 27.00
+Bernolet, Hemelsoet: 27.00
+Bernolet, De Letter: 27.00
+Bernolet, Bogaerts: 27.00
+Bernolet, Cop: 27.00
+Pickering, McLean: 26.00
+Bernolet, Hartsuiker: 24.50
+Pickering, Santesteban: 24.00
+Pickering, Fleischer: 24.00
+Pickering, Veltkamp: 23.00
+Bock, Ferreira: 22.00
+Pickering, Flett: 21.50
+Pickering, Costa: 19.17
+Pickering, Ivanova: 19.17
+Branigan, Messenger: 18.50
+Branigan, Cleland: 17.33
+Branigan, McLean: 14.50
+Bock, Griffin: 14.00
+Ferreira, Slevc: 14.00
+McLean, Messenger: 13.50
+Bernolet, Speybroeck: 13.33
+Bernolet, Vanderelst: 13.33
+Bock, Morey: 13.00
+Bock, Loebell: 13.00
+Bock, Wilson: 11.00
+Chang, Pine: 11.00
+Chang, Rowland: 11.00
+Bock, Cohen: 11.00
+Chang, Ambridge: 11.00
+Chang, Lieven: 11.00
+Branigan, Flett: 10.50
+Hartsuiker, Speybroeck: 10.33
+Hartsuiker, Vanderelst: 10.33
+Hartsuiker, Veltkamp: 9.00
+Branigan, Costa: 8.67
+Branigan, Ivanova: 8.67
+McLean, Santesteban: 8.00
+McLean, Fleischer: 8.00
+Bock, Onishi: 8.00
+Bock, Dell: 8.00
+Schoonbaert, Speybroeck: 7.33
+Schoonbaert, Vanderelst: 7.33
+Bernolet, Schoonbaert: 7.00
+Cleland, McLean: 6.33
+Chang, Onishi: 5.00
+Dell, Chang: 5.00
+Coyle, Kaschak: 4.00
+Kaschak, Kutta: 4.00
+Hartsuiker, Schoonbaert: 3.50
+McLean, Costa: 3.17
+McLean, Ivanova: 3.17
+Desmet, Declercq: 3.00
+Kaschak, Borreggine: 3.00
+Kaschak, Loney: 3.00
+Corley, Scheepers: 3.00
+Kantola, van Gompel: 3.00
+Ferreira, Wilson: 2.00
+van Gompel, Pearson: 2.00
+Scheepers, Myachykov: 2.00
+Desmet, Loncke: 2.00
+Ferreira, Cohen: 2.00
+van Gompel, Arai: 2.00
+Scheepers, Garrod: 2.00
+Desmet, Van Laere: 2.00
