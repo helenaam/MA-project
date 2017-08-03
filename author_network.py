@@ -11,7 +11,7 @@ import operator
 
 def get_data(g, filename):
     # Get betweenness data and write it to the file
-    with open("data/{0}".format(filename), 'w') as file:
+    with open(filename, 'w') as file:
         file.write("Vertex betweenness\n\n")
         vertices = []
         i = 0
@@ -105,7 +105,7 @@ def main():
                     i += 1
     # Read data from graph into file
     if "-d" in sys.argv:
-        get_data(g, sys.argv[1][:sys.argv[1].index("references")] + "data")
+        get_data(g, "data/" + sys.argv[1][:sys.argv[1].index("references")] + "dataa")
     # Plot graph
     if "-p" in sys.argv or "-d" not in sys.argv:
         clusters = g.clusters(mode = STRONG)
