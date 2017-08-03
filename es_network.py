@@ -103,10 +103,14 @@ def main():
         references = read_refs(sys.argv[1])
         # Read conditions as input from user, get references matching those conditions
         num_conditions = len(references[0].conditions)
+        conditions = []
         for i in xrange(num_conditions):
             condition = raw_input("condition {0}: ".format(i+1))
-            if condition != "anything":
+            if condition != "anything" and condition != "any":
                 references = get_refs(references, i, condition)
+                conditions.append(condition)
+            else:
+                conditions.append("any")
         # Combine remaining references to the same paper
         for r1 in references:
             matches = []
@@ -125,6 +129,7 @@ def main():
             g.add_vertices(1)
             g.vs[i]["name"] = r.citation
             g.vs[i]["effect"] = r.effect
+            g.vs[i]["authors"] = r.authors
             i += 1
         i = 0
         # Calculate edge weights
@@ -137,9 +142,30 @@ def main():
                     i += 1
         # Store network data into file if user entered '-d'
         if "-d" in sys.argv:
-            get_data.get_data_papers(g, sys.argv[1] + "_data")
+            filename = "data/" + sys.argv[1] + "/"
+            for condition in conditions:
+                if " " in condition:
+                    words = condition.split(" ")
+                    for w in words:
+                        if "/" in w:
+                            pieces = w.split("/")
+                            for p in pieces:
+                                filename += p[0]
+                        else:
+                            filename += w[0]
+                elif "/" in condition:
+                    words = condition.split("/")
+                    for w in words:
+                        filename += w[0]
+                elif condition != "anything" and condition != "any":
+                    filename += condition[0]
+                else:
+                    filename += "n"
+                if conditions.index(condition) < num_conditions - 1 and len(condition) > 1 and condition != "any":
+                    filename += "-"
+            get_data.get_data_papers(g, filename)
         # Plot graph
-        if len(references) > 0:
+        elif len(references) > 0:
             min_effect = min(float(g.vs['effect'][v.index]) for v in g.vs)
             colors = RainbowPalette(n = (max(float(g.vs['effect'][v.index]) for v in g.vs) - min_effect) * 100 + 1, end = .8)
             visual_style = {}

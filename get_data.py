@@ -64,7 +64,13 @@ def get_data_papers(g, filename):
                 vertices.append(v)
         vertices.sort(key = operator.itemgetter('betweenness'), reverse = True)
         for v in vertices:
-            file.write("%s: %.2f\n" % (v['name'], g.betweenness()[v.index]))
+            file.write("%.2f (" % (v['effect']))
+            v["authors"] = v["authors"].tolist()
+            for a in v["authors"]:
+                file.write("%s" % a.name)
+                if v["authors"].index(a) < len(v["authors"]) - 1:
+                    file.write(", ")
+            file.write("): %.2f" % v['betweenness'])
         file.write("\n\n")
     # Get cluster data and write it to the file
         file.write("Clusters\n\n")
@@ -77,16 +83,16 @@ def get_data_papers(g, filename):
                         file.write(", ")
                 file.write("\n\n")
         file.write("\n")
-    # Get edge betweenness data and write to file
-        file.write("Edge betweenness\n\n")
-        edges = []
-        i = 0
-        for e in g.es:
-            eb = g.edge_betweenness()[e.index]
-            g.es[i]['betweenness'] = eb
-            i += 1
-            if eb > 1:
-                edges.append(e)
-        edges.sort(key = operator.itemgetter('betweenness'), reverse = True)
-        for e in edges:
-            file.write("%s, %s: %.2f\n" % (g.vs[e.source]['name'], g.vs[e.target]['name'], g.edge_betweenness()[e.index]))
+#     # Get edge betweenness data and write to file
+#         file.write("Edge betweenness\n\n")
+#         edges = []
+#         i = 0
+#         for e in g.es:
+#             eb = g.edge_betweenness()[e.index]
+#             g.es[i]['betweenness'] = eb
+#             i += 1
+#             if eb > 1:
+#                 edges.append(e)
+#         edges.sort(key = operator.itemgetter('betweenness'), reverse = True)
+#         for e in edges:
+#             file.write("%s, %s: %.2f\n" % (g.vs[e.source]['name'], g.vs[e.target]['name'], g.edge_betweenness()[e.index]))
