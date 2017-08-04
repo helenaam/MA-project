@@ -1,0 +1,12 @@
+Vertex betweenness
+
+0.10 (Blanken, Van de Ven, Zeelenberg, Meijers): 1.00
+
+
+Clusters
+
+
+Edge betweenness
+
+0.10, 0.15 ([Blanken, Van de Ven, Zeelenberg, Meijers] to [Blanken, Van de Ven, Zeelenberg]): 2.0
+0.10, 0.29 ([Blanken, Van de Ven, Zeelenberg, Meijers] to [Meijers, Noordewier, Verlegh, Smit]): 2.0

@@ -109,4 +109,4 @@ def get_data_papers(g, filename):
             file.write(g.vs[e.source]['authors'][len(g.vs[e.source]['authors']) - 1].name + "] to [")
             for auth in g.vs[e.target]['authors'][:len(g.vs[e.target]['authors']) - 1]:
                 file.write(auth.name + ", ")
-            file.write(g.vs[e.target]['authors'][len(g.vs[e.target]['authors']) - 1].name + "]): " + str(e['betweenness']) + "\n")
+            file.write(g.vs[e.target]['authors'][len(g.vs[e.target]['authors']) - 1].name + "]): %.2f\n" % e['betweenness'])

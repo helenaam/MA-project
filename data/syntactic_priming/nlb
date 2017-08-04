@@ -1,0 +1,183 @@
+Vertex betweenness
+
+1.16 (Bernolet, Hartsuiker, Pickering): 19.670.71 (Bernolet, Hartsuiker, Pickering): 19.671.32 (Bernolet, Hartsuiker, Pickering): 19.670.52 (Branigan, Pickering, Cleland): 18.170.77 (Hartsuiker, Pickering, Veltkamp): 14.000.56 (Schoonbaert, Hartsuiker, Pickering): 14.000.53 (Cleland, Pickering): 9.500.38 (Ferreira, Bock, Wilson, Cohen): 8.000.28 (Bock, Dell, Chang, Onishi): 8.001.22 (Cai, Pickering, Yan, Branigan): 5.670.55 (Ivanova, Pickering, Branigan, McLean, Costa): 5.671.06 (Branigan, Pickering, McLean, Stewart): 5.671.21 (Branigan, Pickering, Stewart, McLean): 5.670.68 (Pickering, Branigan): 5.670.83 (Santesteban, Pickering, McLean): 3.251.44 (Fleischer, Pickering, McLean): 3.250.80 (Bernolet, Hartsuiker): 1.000.59 (Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst): 1.001.66 (Messenger, Branigan, McLean): 0.251.14 (Messenger, Branigan, McLean, Sorace): 0.25
+
+
+Clusters
+
+0.80, 1.87, 1.22, 0.59, 0.44, 1.66, 1.14, 0.83, 1.16, 0.87, 0.60, 0.55, 0.88, 0.52, 1.06, 1.21, 0.53, 0.58, 0.68, 0.71, 1.32, 1.44, 0.77, 0.56, 0.52
+[Bernolet, Hartsuiker]; [Cai, Pickering, Sturt]; [Cai, Pickering, Yan, Branigan]; [Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst]; [Hartsuiker]; [Messenger, Branigan, McLean]; [Messenger, Branigan, McLean, Sorace]; [Santesteban, Pickering, McLean]; [Bernolet, Hartsuiker, Pickering]; [Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita]; [Hartsuiker, Westenberg]; [Ivanova, Pickering, Branigan, McLean, Costa]; [Melinger, Cleland]; [Branigan, Pickering, Cleland]; [Branigan, Pickering, McLean, Stewart]; [Branigan, Pickering, Stewart, McLean]; [Cleland, Pickering]; [Hartsuiker, Kolk]; [Pickering, Branigan]; [Bernolet, Hartsuiker, Pickering]; [Bernolet, Hartsuiker, Pickering]; [Fleischer, Pickering, McLean]; [Hartsuiker, Pickering, Veltkamp]; [Schoonbaert, Hartsuiker, Pickering]; [Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck]; 
+
+0.43, 0.38, 0.14, 0.75, 0.51, 0.43, 0.28, 0.30, 0.20, 0.42
+[Bock, Loebell, Morey]; [Ferreira, Bock, Wilson, Cohen]; [Rowland, Chang, Ambridge, Pine, Lieven]; [Slevc, Ferreira]; [Bock]; [Bock]; [Bock, Dell, Chang, Onishi]; [Bock, Griffin]; [Loebell, Bock]; [Bock, Loebell]; 
+
+
+Edge betweenness
+
+0.88, 0.52 ([Melinger, Cleland] to [Branigan, Pickering, Cleland]): 13.50
+0.88, 0.53 ([Melinger, Cleland] to [Cleland, Pickering]): 10.50
+0.38, 0.75 ([Ferreira, Bock, Wilson, Cohen] to [Slevc, Ferreira]): 9.00
+0.14, 0.28 ([Rowland, Chang, Ambridge, Pine, Lieven] to [Bock, Dell, Chang, Onishi]): 9.00
+0.71, 0.52 ([Bernolet, Hartsuiker, Pickering] to [Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck]): 6.67
+1.32, 0.52 ([Bernolet, Hartsuiker, Pickering] to [Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck]): 6.67
+1.16, 0.52 ([Bernolet, Hartsuiker, Pickering] to [Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck]): 6.67
+1.16, 0.52 ([Bernolet, Hartsuiker, Pickering] to [Branigan, Pickering, Cleland]): 4.47
+0.52, 0.71 ([Branigan, Pickering, Cleland] to [Bernolet, Hartsuiker, Pickering]): 4.47
+0.52, 1.32 ([Branigan, Pickering, Cleland] to [Bernolet, Hartsuiker, Pickering]): 4.47
+0.87, 0.52 ([Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita] to [Branigan, Pickering, Cleland]): 4.42
+0.80, 0.77 ([Bernolet, Hartsuiker] to [Hartsuiker, Pickering, Veltkamp]): 4.00
+0.80, 0.56 ([Bernolet, Hartsuiker] to [Schoonbaert, Hartsuiker, Pickering]): 4.00
+0.59, 0.77 ([Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst] to [Hartsuiker, Pickering, Veltkamp]): 4.00
+0.59, 0.56 ([Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst] to [Schoonbaert, Hartsuiker, Pickering]): 4.00
+0.44, 1.16 ([Hartsuiker] to [Bernolet, Hartsuiker, Pickering]): 4.00
+0.44, 0.71 ([Hartsuiker] to [Bernolet, Hartsuiker, Pickering]): 4.00
+0.44, 1.32 ([Hartsuiker] to [Bernolet, Hartsuiker, Pickering]): 4.00
+1.16, 0.60 ([Bernolet, Hartsuiker, Pickering] to [Hartsuiker, Westenberg]): 4.00
+1.16, 0.58 ([Bernolet, Hartsuiker, Pickering] to [Hartsuiker, Kolk]): 4.00
+0.60, 0.71 ([Hartsuiker, Westenberg] to [Bernolet, Hartsuiker, Pickering]): 4.00
+0.60, 1.32 ([Hartsuiker, Westenberg] to [Bernolet, Hartsuiker, Pickering]): 4.00
+0.38, 0.28 ([Ferreira, Bock, Wilson, Cohen] to [Bock, Dell, Chang, Onishi]): 4.00
+0.58, 0.71 ([Hartsuiker, Kolk] to [Bernolet, Hartsuiker, Pickering]): 4.00
+0.58, 1.32 ([Hartsuiker, Kolk] to [Bernolet, Hartsuiker, Pickering]): 4.00
+0.52, 0.77 ([Branigan, Pickering, Cleland] to [Hartsuiker, Pickering, Veltkamp]): 3.83
+0.52, 0.56 ([Branigan, Pickering, Cleland] to [Schoonbaert, Hartsuiker, Pickering]): 3.83
+0.80, 1.16 ([Bernolet, Hartsuiker] to [Bernolet, Hartsuiker, Pickering]): 3.80
+0.80, 0.71 ([Bernolet, Hartsuiker] to [Bernolet, Hartsuiker, Pickering]): 3.80
+0.80, 1.32 ([Bernolet, Hartsuiker] to [Bernolet, Hartsuiker, Pickering]): 3.80
+0.59, 1.16 ([Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst] to [Bernolet, Hartsuiker, Pickering]): 3.80
+0.59, 0.71 ([Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst] to [Bernolet, Hartsuiker, Pickering]): 3.80
+0.59, 1.32 ([Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst] to [Bernolet, Hartsuiker, Pickering]): 3.80
+0.44, 0.77 ([Hartsuiker] to [Hartsuiker, Pickering, Veltkamp]): 3.80
+0.44, 0.56 ([Hartsuiker] to [Schoonbaert, Hartsuiker, Pickering]): 3.80
+0.60, 0.77 ([Hartsuiker, Westenberg] to [Hartsuiker, Pickering, Veltkamp]): 3.80
+0.60, 0.56 ([Hartsuiker, Westenberg] to [Schoonbaert, Hartsuiker, Pickering]): 3.80
+0.58, 0.77 ([Hartsuiker, Kolk] to [Hartsuiker, Pickering, Veltkamp]): 3.80
+0.58, 0.56 ([Hartsuiker, Kolk] to [Schoonbaert, Hartsuiker, Pickering]): 3.80
+1.66, 0.52 ([Messenger, Branigan, McLean] to [Branigan, Pickering, Cleland]): 3.62
+1.14, 0.52 ([Messenger, Branigan, McLean, Sorace] to [Branigan, Pickering, Cleland]): 3.62
+1.16, 0.53 ([Bernolet, Hartsuiker, Pickering] to [Cleland, Pickering]): 3.50
+0.53, 0.71 ([Cleland, Pickering] to [Bernolet, Hartsuiker, Pickering]): 3.50
+0.53, 1.32 ([Cleland, Pickering] to [Bernolet, Hartsuiker, Pickering]): 3.50
+1.22, 0.87 ([Cai, Pickering, Yan, Branigan] to [Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita]): 3.42
+0.87, 0.55 ([Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita] to [Ivanova, Pickering, Branigan, McLean, Costa]): 3.42
+0.87, 1.06 ([Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita] to [Branigan, Pickering, McLean, Stewart]): 3.42
+0.87, 1.21 ([Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita] to [Branigan, Pickering, Stewart, McLean]): 3.42
+0.87, 0.68 ([Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita] to [Pickering, Branigan]): 3.42
+1.22, 1.16 ([Cai, Pickering, Yan, Branigan] to [Bernolet, Hartsuiker, Pickering]): 3.31
+1.22, 0.71 ([Cai, Pickering, Yan, Branigan] to [Bernolet, Hartsuiker, Pickering]): 3.31
+1.22, 1.32 ([Cai, Pickering, Yan, Branigan] to [Bernolet, Hartsuiker, Pickering]): 3.31
+1.16, 0.55 ([Bernolet, Hartsuiker, Pickering] to [Ivanova, Pickering, Branigan, McLean, Costa]): 3.31
+1.16, 1.06 ([Bernolet, Hartsuiker, Pickering] to [Branigan, Pickering, McLean, Stewart]): 3.31
+1.16, 1.21 ([Bernolet, Hartsuiker, Pickering] to [Branigan, Pickering, Stewart, McLean]): 3.31
+1.16, 0.68 ([Bernolet, Hartsuiker, Pickering] to [Pickering, Branigan]): 3.31
+0.55, 0.71 ([Ivanova, Pickering, Branigan, McLean, Costa] to [Bernolet, Hartsuiker, Pickering]): 3.31
+0.55, 1.32 ([Ivanova, Pickering, Branigan, McLean, Costa] to [Bernolet, Hartsuiker, Pickering]): 3.31
+1.06, 0.71 ([Branigan, Pickering, McLean, Stewart] to [Bernolet, Hartsuiker, Pickering]): 3.31
+1.06, 1.32 ([Branigan, Pickering, McLean, Stewart] to [Bernolet, Hartsuiker, Pickering]): 3.31
+1.21, 0.71 ([Branigan, Pickering, Stewart, McLean] to [Bernolet, Hartsuiker, Pickering]): 3.31
+1.21, 1.32 ([Branigan, Pickering, Stewart, McLean] to [Bernolet, Hartsuiker, Pickering]): 3.31
+0.68, 0.71 ([Pickering, Branigan] to [Bernolet, Hartsuiker, Pickering]): 3.31
+0.68, 1.32 ([Pickering, Branigan] to [Bernolet, Hartsuiker, Pickering]): 3.31
+0.53, 0.77 ([Cleland, Pickering] to [Hartsuiker, Pickering, Veltkamp]): 3.00
+0.53, 0.56 ([Cleland, Pickering] to [Schoonbaert, Hartsuiker, Pickering]): 3.00
+0.83, 1.16 ([Santesteban, Pickering, McLean] to [Bernolet, Hartsuiker, Pickering]): 2.92
+0.83, 0.71 ([Santesteban, Pickering, McLean] to [Bernolet, Hartsuiker, Pickering]): 2.92
+0.83, 1.32 ([Santesteban, Pickering, McLean] to [Bernolet, Hartsuiker, Pickering]): 2.92
+1.16, 1.44 ([Bernolet, Hartsuiker, Pickering] to [Fleischer, Pickering, McLean]): 2.92
+0.71, 1.44 ([Bernolet, Hartsuiker, Pickering] to [Fleischer, Pickering, McLean]): 2.92
+1.32, 1.44 ([Bernolet, Hartsuiker, Pickering] to [Fleischer, Pickering, McLean]): 2.92
+1.22, 0.77 ([Cai, Pickering, Yan, Branigan] to [Hartsuiker, Pickering, Veltkamp]): 2.83
+1.22, 0.56 ([Cai, Pickering, Yan, Branigan] to [Schoonbaert, Hartsuiker, Pickering]): 2.83
+0.55, 0.77 ([Ivanova, Pickering, Branigan, McLean, Costa] to [Hartsuiker, Pickering, Veltkamp]): 2.83
+0.55, 0.56 ([Ivanova, Pickering, Branigan, McLean, Costa] to [Schoonbaert, Hartsuiker, Pickering]): 2.83
+1.06, 0.77 ([Branigan, Pickering, McLean, Stewart] to [Hartsuiker, Pickering, Veltkamp]): 2.83
+1.06, 0.56 ([Branigan, Pickering, McLean, Stewart] to [Schoonbaert, Hartsuiker, Pickering]): 2.83
+1.21, 0.77 ([Branigan, Pickering, Stewart, McLean] to [Hartsuiker, Pickering, Veltkamp]): 2.83
+1.21, 0.56 ([Branigan, Pickering, Stewart, McLean] to [Schoonbaert, Hartsuiker, Pickering]): 2.83
+0.68, 0.77 ([Pickering, Branigan] to [Hartsuiker, Pickering, Veltkamp]): 2.83
+0.68, 0.56 ([Pickering, Branigan] to [Schoonbaert, Hartsuiker, Pickering]): 2.83
+1.66, 0.83 ([Messenger, Branigan, McLean] to [Santesteban, Pickering, McLean]): 2.75
+1.66, 1.44 ([Messenger, Branigan, McLean] to [Fleischer, Pickering, McLean]): 2.75
+1.14, 0.83 ([Messenger, Branigan, McLean, Sorace] to [Santesteban, Pickering, McLean]): 2.75
+1.14, 1.44 ([Messenger, Branigan, McLean, Sorace] to [Fleischer, Pickering, McLean]): 2.75
+1.22, 1.66 ([Cai, Pickering, Yan, Branigan] to [Messenger, Branigan, McLean]): 2.62
+1.22, 1.14 ([Cai, Pickering, Yan, Branigan] to [Messenger, Branigan, McLean, Sorace]): 2.62
+1.66, 0.55 ([Messenger, Branigan, McLean] to [Ivanova, Pickering, Branigan, McLean, Costa]): 2.62
+1.66, 1.06 ([Messenger, Branigan, McLean] to [Branigan, Pickering, McLean, Stewart]): 2.62
+1.66, 1.21 ([Messenger, Branigan, McLean] to [Branigan, Pickering, Stewart, McLean]): 2.62
+1.66, 0.68 ([Messenger, Branigan, McLean] to [Pickering, Branigan]): 2.62
+1.14, 0.55 ([Messenger, Branigan, McLean, Sorace] to [Ivanova, Pickering, Branigan, McLean, Costa]): 2.62
+1.14, 1.06 ([Messenger, Branigan, McLean, Sorace] to [Branigan, Pickering, McLean, Stewart]): 2.62
+1.14, 1.21 ([Messenger, Branigan, McLean, Sorace] to [Branigan, Pickering, Stewart, McLean]): 2.62
+1.14, 0.68 ([Messenger, Branigan, McLean, Sorace] to [Pickering, Branigan]): 2.62
+0.83, 0.77 ([Santesteban, Pickering, McLean] to [Hartsuiker, Pickering, Veltkamp]): 2.50
+0.83, 0.56 ([Santesteban, Pickering, McLean] to [Schoonbaert, Hartsuiker, Pickering]): 2.50
+1.44, 0.77 ([Fleischer, Pickering, McLean] to [Hartsuiker, Pickering, Veltkamp]): 2.50
+1.44, 0.56 ([Fleischer, Pickering, McLean] to [Schoonbaert, Hartsuiker, Pickering]): 2.50
+1.87, 1.16 ([Cai, Pickering, Sturt] to [Bernolet, Hartsuiker, Pickering]): 2.33
+1.87, 0.71 ([Cai, Pickering, Sturt] to [Bernolet, Hartsuiker, Pickering]): 2.33
+1.87, 1.32 ([Cai, Pickering, Sturt] to [Bernolet, Hartsuiker, Pickering]): 2.33
+1.87, 0.77 ([Cai, Pickering, Sturt] to [Hartsuiker, Pickering, Veltkamp]): 2.00
+1.87, 0.56 ([Cai, Pickering, Sturt] to [Schoonbaert, Hartsuiker, Pickering]): 2.00
+0.80, 0.52 ([Bernolet, Hartsuiker] to [Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck]): 2.00
+0.43, 0.38 ([Bock, Loebell, Morey] to [Ferreira, Bock, Wilson, Cohen]): 2.00
+0.43, 0.28 ([Bock, Loebell, Morey] to [Bock, Dell, Chang, Onishi]): 2.00
+0.38, 0.51 ([Ferreira, Bock, Wilson, Cohen] to [Bock]): 2.00
+0.38, 0.43 ([Ferreira, Bock, Wilson, Cohen] to [Bock]): 2.00
+0.38, 0.30 ([Ferreira, Bock, Wilson, Cohen] to [Bock, Griffin]): 2.00
+0.38, 0.20 ([Ferreira, Bock, Wilson, Cohen] to [Loebell, Bock]): 2.00
+0.38, 0.42 ([Ferreira, Bock, Wilson, Cohen] to [Bock, Loebell]): 2.00
+0.59, 0.52 ([Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst] to [Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck]): 2.00
+0.51, 0.28 ([Bock] to [Bock, Dell, Chang, Onishi]): 2.00
+0.43, 0.28 ([Bock] to [Bock, Dell, Chang, Onishi]): 2.00
+0.28, 0.30 ([Bock, Dell, Chang, Onishi] to [Bock, Griffin]): 2.00
+0.28, 0.20 ([Bock, Dell, Chang, Onishi] to [Loebell, Bock]): 2.00
+0.28, 0.42 ([Bock, Dell, Chang, Onishi] to [Bock, Loebell]): 2.00
+1.22, 0.53 ([Cai, Pickering, Yan, Branigan] to [Cleland, Pickering]): 1.92
+1.87, 0.52 ([Cai, Pickering, Sturt] to [Branigan, Pickering, Cleland]): 1.92
+0.55, 0.53 ([Ivanova, Pickering, Branigan, McLean, Costa] to [Cleland, Pickering]): 1.92
+1.06, 0.53 ([Branigan, Pickering, McLean, Stewart] to [Cleland, Pickering]): 1.92
+1.21, 0.53 ([Branigan, Pickering, Stewart, McLean] to [Cleland, Pickering]): 1.92
+0.53, 0.68 ([Cleland, Pickering] to [Pickering, Branigan]): 1.92
+0.83, 0.53 ([Santesteban, Pickering, McLean] to [Cleland, Pickering]): 1.75
+0.53, 1.44 ([Cleland, Pickering] to [Fleischer, Pickering, McLean]): 1.75
+0.83, 0.52 ([Santesteban, Pickering, McLean] to [Branigan, Pickering, Cleland]): 1.62
+0.52, 1.44 ([Branigan, Pickering, Cleland] to [Fleischer, Pickering, McLean]): 1.62
+1.87, 0.53 ([Cai, Pickering, Sturt] to [Cleland, Pickering]): 1.50
+1.22, 0.52 ([Cai, Pickering, Yan, Branigan] to [Branigan, Pickering, Cleland]): 1.50
+0.55, 0.52 ([Ivanova, Pickering, Branigan, McLean, Costa] to [Branigan, Pickering, Cleland]): 1.50
+0.52, 1.06 ([Branigan, Pickering, Cleland] to [Branigan, Pickering, McLean, Stewart]): 1.50
+0.52, 1.21 ([Branigan, Pickering, Cleland] to [Branigan, Pickering, Stewart, McLean]): 1.50
+0.52, 0.68 ([Branigan, Pickering, Cleland] to [Pickering, Branigan]): 1.50
+1.87, 1.22 ([Cai, Pickering, Sturt] to [Cai, Pickering, Yan, Branigan]): 1.42
+1.87, 0.55 ([Cai, Pickering, Sturt] to [Ivanova, Pickering, Branigan, McLean, Costa]): 1.42
+1.87, 1.06 ([Cai, Pickering, Sturt] to [Branigan, Pickering, McLean, Stewart]): 1.42
+1.87, 1.21 ([Cai, Pickering, Sturt] to [Branigan, Pickering, Stewart, McLean]): 1.42
+1.87, 0.68 ([Cai, Pickering, Sturt] to [Pickering, Branigan]): 1.42
+0.52, 0.53 ([Branigan, Pickering, Cleland] to [Cleland, Pickering]): 1.42
+1.87, 0.83 ([Cai, Pickering, Sturt] to [Santesteban, Pickering, McLean]): 1.25
+1.87, 1.44 ([Cai, Pickering, Sturt] to [Fleischer, Pickering, McLean]): 1.25
+1.66, 0.87 ([Messenger, Branigan, McLean] to [Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita]): 1.25
+1.14, 0.87 ([Messenger, Branigan, McLean, Sorace] to [Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita]): 1.25
+0.80, 0.44 ([Bernolet, Hartsuiker] to [Hartsuiker]): 1.20
+0.80, 0.60 ([Bernolet, Hartsuiker] to [Hartsuiker, Westenberg]): 1.20
+0.80, 0.58 ([Bernolet, Hartsuiker] to [Hartsuiker, Kolk]): 1.20
+0.59, 0.44 ([Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst] to [Hartsuiker]): 1.20
+0.59, 0.60 ([Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst] to [Hartsuiker, Westenberg]): 1.20
+0.59, 0.58 ([Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst] to [Hartsuiker, Kolk]): 1.20
+1.16, 0.77 ([Bernolet, Hartsuiker, Pickering] to [Hartsuiker, Pickering, Veltkamp]): 1.20
+1.16, 0.56 ([Bernolet, Hartsuiker, Pickering] to [Schoonbaert, Hartsuiker, Pickering]): 1.20
+0.71, 0.77 ([Bernolet, Hartsuiker, Pickering] to [Hartsuiker, Pickering, Veltkamp]): 1.20
+0.71, 0.56 ([Bernolet, Hartsuiker, Pickering] to [Schoonbaert, Hartsuiker, Pickering]): 1.20
+1.32, 0.77 ([Bernolet, Hartsuiker, Pickering] to [Hartsuiker, Pickering, Veltkamp]): 1.20
+1.32, 0.56 ([Bernolet, Hartsuiker, Pickering] to [Schoonbaert, Hartsuiker, Pickering]): 1.20
+1.22, 0.83 ([Cai, Pickering, Yan, Branigan] to [Santesteban, Pickering, McLean]): 1.12
+1.22, 1.44 ([Cai, Pickering, Yan, Branigan] to [Fleischer, Pickering, McLean]): 1.12
+0.83, 0.55 ([Santesteban, Pickering, McLean] to [Ivanova, Pickering, Branigan, McLean, Costa]): 1.12
+0.83, 1.06 ([Santesteban, Pickering, McLean] to [Branigan, Pickering, McLean, Stewart]): 1.12
+0.83, 1.21 ([Santesteban, Pickering, McLean] to [Branigan, Pickering, Stewart, McLean]): 1.12
+0.83, 0.68 ([Santesteban, Pickering, McLean] to [Pickering, Branigan]): 1.12
+0.55, 1.44 ([Ivanova, Pickering, Branigan, McLean, Costa] to [Fleischer, Pickering, McLean]): 1.12
+1.06, 1.44 ([Branigan, Pickering, McLean, Stewart] to [Fleischer, Pickering, McLean]): 1.12
+1.21, 1.44 ([Branigan, Pickering, Stewart, McLean] to [Fleischer, Pickering, McLean]): 1.12
+0.68, 1.44 ([Pickering, Branigan] to [Fleischer, Pickering, McLean]): 1.12
