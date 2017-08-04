@@ -1,6 +1,25 @@
 Vertex betweenness
 
-1.16 (Bernolet, Hartsuiker, Pickering): 19.670.71 (Bernolet, Hartsuiker, Pickering): 19.671.32 (Bernolet, Hartsuiker, Pickering): 19.670.52 (Branigan, Pickering, Cleland): 18.170.77 (Hartsuiker, Pickering, Veltkamp): 14.000.56 (Schoonbaert, Hartsuiker, Pickering): 14.000.53 (Cleland, Pickering): 9.500.38 (Ferreira, Bock, Wilson, Cohen): 8.000.28 (Bock, Dell, Chang, Onishi): 8.001.22 (Cai, Pickering, Yan, Branigan): 5.670.55 (Ivanova, Pickering, Branigan, McLean, Costa): 5.671.06 (Branigan, Pickering, McLean, Stewart): 5.671.21 (Branigan, Pickering, Stewart, McLean): 5.670.68 (Pickering, Branigan): 5.670.83 (Santesteban, Pickering, McLean): 3.251.44 (Fleischer, Pickering, McLean): 3.250.80 (Bernolet, Hartsuiker): 1.000.59 (Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst): 1.001.66 (Messenger, Branigan, McLean): 0.251.14 (Messenger, Branigan, McLean, Sorace): 0.25
+1.16 (Bernolet, Hartsuiker, Pickering): 19.67
+0.71 (Bernolet, Hartsuiker, Pickering): 19.67
+1.32 (Bernolet, Hartsuiker, Pickering): 19.67
+0.52 (Branigan, Pickering, Cleland): 18.17
+0.77 (Hartsuiker, Pickering, Veltkamp): 14.00
+0.56 (Schoonbaert, Hartsuiker, Pickering): 14.00
+0.53 (Cleland, Pickering): 9.50
+0.38 (Ferreira, Bock, Wilson, Cohen): 8.00
+0.28 (Bock, Dell, Chang, Onishi): 8.00
+1.22 (Cai, Pickering, Yan, Branigan): 5.67
+0.55 (Ivanova, Pickering, Branigan, McLean, Costa): 5.67
+1.06 (Branigan, Pickering, McLean, Stewart): 5.67
+1.21 (Branigan, Pickering, Stewart, McLean): 5.67
+0.68 (Pickering, Branigan): 5.67
+0.83 (Santesteban, Pickering, McLean): 3.25
+1.44 (Fleischer, Pickering, McLean): 3.25
+0.80 (Bernolet, Hartsuiker): 1.00
+0.59 (Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst): 1.00
+1.66 (Messenger, Branigan, McLean): 0.25
+1.14 (Messenger, Branigan, McLean, Sorace): 0.25
 
 
 Clusters
@@ -15,6 +34,9 @@ Clusters
 	Mean: 0.38
 	Standard deviation: 0.16
 
+
+Network mean: 0.74
+Network standard deviation: 0.39
 
 Edge betweenness
 

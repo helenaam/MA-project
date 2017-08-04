@@ -1,6 +1,18 @@
 Vertex betweenness
 
-1.07 (Branigan, Pickering, McLean, Cleland): 28.571.02 (Cleland, Pickering): 24.001.28 (Bernolet, Hartsuiker, Pickering): 8.401.24 (Bernolet, Hartsuiker, Pickering): 8.401.28 (Bernolet, Hartsuiker, Pickering): 8.402.78 (Bernolet, Hartsuiker, Pickering): 8.401.58 (Schoonbaert, Hartsuiker, Pickering): 8.401.69 (Cai, Pickering, Branigan): 1.573.17 (Cai, Pickering, Yan, Branigan): 1.572.43 (Flett, Branigan, Pickering): 1.571.67 (Ivanova, Pickering, McLean, Costa, Branigan): 1.571.10 (Pickering, Branigan): 1.570.86 (Pickering, Branigan, McLean): 1.57
+1.07 (Branigan, Pickering, McLean, Cleland): 28.57
+1.02 (Cleland, Pickering): 24.00
+1.28 (Bernolet, Hartsuiker, Pickering): 8.40
+1.24 (Bernolet, Hartsuiker, Pickering): 8.40
+1.28 (Bernolet, Hartsuiker, Pickering): 8.40
+2.78 (Bernolet, Hartsuiker, Pickering): 8.40
+1.58 (Schoonbaert, Hartsuiker, Pickering): 8.40
+1.69 (Cai, Pickering, Branigan): 1.57
+3.17 (Cai, Pickering, Yan, Branigan): 1.57
+2.43 (Flett, Branigan, Pickering): 1.57
+1.67 (Ivanova, Pickering, McLean, Costa, Branigan): 1.57
+1.10 (Pickering, Branigan): 1.57
+0.86 (Pickering, Branigan, McLean): 1.57
 
 
 Clusters
@@ -10,6 +22,9 @@ Clusters
 	Mean: 1.47
 	Standard deviation: 0.77
 
+
+Network mean: 1.35
+Network standard deviation: 0.69
 
 Edge betweenness
 

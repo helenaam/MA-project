@@ -1,0 +1,27 @@
+Vertex betweenness
+
+0.34 (Yamagishi, Mifune): 2.00
+0.33 (Goerg, Meise, Walkowitz, Winter): 0.50
+0.36 (Goette, Huffman, Meier): 0.50
+
+
+Clusters
+
+0.30, 0.33, 0.36, 0.38, 0.34
+[Dorrough, Glockner]; [Goerg, Meise, Walkowitz, Winter]; [Goette, Huffman, Meier]; [Goette, Huffman, Meier]; [Yamagishi, Mifune]; 
+	Mean: 0.34
+	Standard deviation: 0.03
+
+
+Network mean: 0.38
+Network standard deviation: 0.23
+
+Edge betweenness
+
+0.30, 0.34 ([Dorrough, Glockner] to [Yamagishi, Mifune]): 2.50
+0.38, 0.34 ([Goette, Huffman, Meier] to [Yamagishi, Mifune]): 2.50
+0.33, 0.36 ([Goerg, Meise, Walkowitz, Winter] to [Goette, Huffman, Meier]): 2.00
+0.30, 0.33 ([Dorrough, Glockner] to [Goerg, Meise, Walkowitz, Winter]): 1.50
+0.33, 0.34 ([Goerg, Meise, Walkowitz, Winter] to [Yamagishi, Mifune]): 1.50
+0.36, 0.38 ([Goette, Huffman, Meier] to [Goette, Huffman, Meier]): 1.50
+0.36, 0.34 ([Goette, Huffman, Meier] to [Yamagishi, Mifune]): 1.50

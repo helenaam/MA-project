@@ -1,0 +1,18 @@
+Vertex betweenness
+
+0.25 (De Cremer, Van Vugt): 0.50
+0.26 (Van Vugt, Hart): 0.50
+
+
+Clusters
+
+
+Network mean: 0.43
+Network standard deviation: 0.37
+
+Edge betweenness
+
+0.25, 0.30 ([De Cremer, Van Vugt] to [Koopmans, Rebers]): 1.50
+0.25, 0.23 ([De Cremer, Van Vugt] to [Platow, Durante, Williams, Garrett, Walshe, Cincotta, Barutchu]): 1.50
+0.30, 0.26 ([Koopmans, Rebers] to [Van Vugt, Hart]): 1.50
+0.23, 0.26 ([Platow, Durante, Williams, Garrett, Walshe, Cincotta, Barutchu] to [Van Vugt, Hart]): 1.50

@@ -1,6 +1,10 @@
 Vertex betweenness
 
-0.58 (De Cremer, Van Vugt): 0.200.62 (De Cremer, Van Vugt): 0.200.25 (De Cremer, Van Vugt): 0.200.53 (Van Vugt, De Cremer): 0.200.42 (Van Vugt, De Cremer, Janssen): 0.20
+0.58 (De Cremer, Van Vugt): 0.20
+0.62 (De Cremer, Van Vugt): 0.20
+0.25 (De Cremer, Van Vugt): 0.20
+0.53 (Van Vugt, De Cremer): 0.20
+0.42 (Van Vugt, De Cremer, Janssen): 0.20
 
 
 Clusters
@@ -10,6 +14,9 @@ Clusters
 	Mean: 0.39
 	Standard deviation: 0.18
 
+
+Network mean: 0.43
+Network standard deviation: 0.37
 
 Edge betweenness
 

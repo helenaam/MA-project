@@ -1,0 +1,270 @@
+Vertex betweenness
+
+0.27 (Jin, Shinotsuka): 91.05
+0.32 (Spiegelman): 90.31
+0.23 (Bogach, Leibbrandt): 74.95
+0.24 (Dorrough, Glockner): 72.00
+0.22 (Fowler, Kam): 66.08
+0.30 (Güth, Ploner, Regner): 58.90
+0.26 (Winterich, Mittal, Ross): 58.87
+0.23 (Dion): 54.36
+0.20 (Yamagishi, Mifune): 42.32
+0.20 (Mifune, Yamagishi): 42.32
+0.31 (Mifune, Hashimoto, Yamagishi): 36.37
+0.26 (Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler): 30.68
+0.18 (Yamagishi, Mifune, Liu, Pauling): 26.16
+0.18 (Thompson, Valley, Kramer): 15.05
+0.19 (Buchan, Johnson, Croson): 14.67
+0.19 (Takahashi, Yamagishi, Liu, Wang, Lin, Yu): 14.67
+0.28 (Ioannou, Qi, Rustichini): 13.63
+0.29 (Whitt, Wilson): 13.63
+0.28 (Simpson): 13.63
+-0.02 (Güth, Levati, Ploner): 9.00
+0.01 (Lei, Vesely): 8.00
+0.16 (Kiyonari, Foddy, Yamagishi): 7.64
+0.15 (Guala, Mittone, Ploner): 7.64
+0.15 (Parks, Sanna, Berel): 7.64
+0.15 (Yamagishi, Kiyonari): 7.64
+0.25 (McLeish, Oxoby): 7.10
+0.69 (Kiyonari): 6.00
+-0.07 (Giner-Sorolla, Piazza, Vasiljevic, Van Vugt): 5.00
+0.17 (Koopmans, Rebers): 4.85
+0.17 (Bouckaert, Dhaene): 4.85
+0.34 (Goette, Huffman, Meier): 2.58
+0.34 (Jin, Yamagishi): 2.58
+0.35 (Yamagishi, Mifune): 2.58
+0.35 (Ruffle, Sosis): 2.58
+0.14 (Wang, Yamagishi): 2.03
+0.55 (Goerg, Meise, Walkowitz, Winter): 2.00
+0.16 (Tanis, Postmes): 0.65
+
+
+Clusters
+
+0.23, 0.22, 0.30, 0.28, 0.25, 0.31, 0.26, 0.18, 0.29, 0.20, 0.16, 0.14, 0.36, 0.23, 0.24, 0.34, 0.15, 0.27, 0.34, 0.20, 0.15, 0.28, 0.32, 0.15, 0.35, 0.18, 0.17, 0.36, 0.26, 0.35, 0.17, 0.19, 0.11, 0.19, 0.16, 0.36
+[Bogach, Leibbrandt]; [Fowler, Kam]; [Güth, Ploner, Regner]; [Ioannou, Qi, Rustichini]; [McLeish, Oxoby]; [Mifune, Hashimoto, Yamagishi]; [Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler]; [Thompson, Valley, Kramer]; [Whitt, Wilson]; [Yamagishi, Mifune]; [Kiyonari, Foddy, Yamagishi]; [Wang, Yamagishi]; [Baxter]; [Dion]; [Dorrough, Glockner]; [Goette, Huffman, Meier]; [Guala, Mittone, Ploner]; [Jin, Shinotsuka]; [Jin, Yamagishi]; [Mifune, Yamagishi]; [Parks, Sanna, Berel]; [Simpson]; [Spiegelman]; [Yamagishi, Kiyonari]; [Yamagishi, Mifune]; [Yamagishi, Mifune, Liu, Pauling]; [Koopmans, Rebers]; [Morrison]; [Winterich, Mittal, Ross]; [Ruffle, Sosis]; [Bouckaert, Dhaene]; [Buchan, Johnson, Croson]; [Johansson-Stenman, Mahumud, Martinsson]; [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]; [Tanis, Postmes]; [Morita, Servatka]; 
+	Mean: 0.24
+	Standard deviation: 0.07
+
+-0.07, 0.01, 0.03, -0.10, -0.02, 0.03, -0.04
+[Giner-Sorolla, Piazza, Vasiljevic, Van Vugt]; [Lei, Vesely]; [Wrightsman, Davis, Lucker, Bruininks, Evans, Wilde, Clark]; [Yamagishi, Makimura, Foddy, Kiyonari, Platow]; [Güth, Levati, Ploner]; [Simpson]; [Holm]; 
+	Mean: -0.02
+	Standard deviation: 0.05
+
+0.73, 0.65, 0.65, 0.69, 0.73, 0.67
+[Ahmed]; [Balliet, Tybur, Wu, Antonellis, Van Lange]; [Goette, Huffman, Meier, Sutter]; [Kiyonari]; [Fershtman, Gneezy, Verboven]; [Hargreaves Heap, Zizzo]; 
+	Mean: 0.69
+	Standard deviation: 0.04
+
+
+Network mean: 0.33
+Network standard deviation: 0.39
+
+Edge betweenness
+
+0.27, 0.32 ([Jin, Shinotsuka] to [Spiegelman]): 68.40
+0.23, 0.27 ([Bogach, Leibbrandt] to [Jin, Shinotsuka]): 52.45
+0.23, 0.27 ([Dion] to [Jin, Shinotsuka]): 40.09
+0.22, 0.26 ([Fowler, Kam] to [Winterich, Mittal, Ross]): 38.76
+0.24, 0.20 ([Dorrough, Glockner] to [Mifune, Yamagishi]): 38.33
+0.20, 0.24 ([Yamagishi, Mifune] to [Dorrough, Glockner]): 38.33
+0.31, 0.26 ([Mifune, Hashimoto, Yamagishi] to [Winterich, Mittal, Ross]): 32.43
+0.30, 0.26 ([Güth, Ploner, Regner] to [Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler]): 30.61
+0.30, 0.26 ([Güth, Ploner, Regner] to [Winterich, Mittal, Ross]): 27.81
+0.36, 0.32 ([Baxter] to [Spiegelman]): 25.56
+0.32, 0.36 ([Spiegelman] to [Morrison]): 25.56
+0.32, 0.36 ([Spiegelman] to [Morita, Servatka]): 25.56
+0.22, 0.26 ([Fowler, Kam] to [Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler]): 24.23
+0.23, 0.18 ([Bogach, Leibbrandt] to [Thompson, Valley, Kramer]): 23.40
+0.28, 0.24 ([Ioannou, Qi, Rustichini] to [Dorrough, Glockner]): 21.93
+0.29, 0.24 ([Whitt, Wilson] to [Dorrough, Glockner]): 21.93
+0.24, 0.28 ([Dorrough, Glockner] to [Simpson]): 21.93
+0.22, 0.17 ([Fowler, Kam] to [Koopmans, Rebers]): 19.59
+0.22, 0.17 ([Fowler, Kam] to [Bouckaert, Dhaene]): 19.59
+0.23, 0.18 ([Dion] to [Yamagishi, Mifune, Liu, Pauling]): 19.12
+0.23, 0.26 ([Bogach, Leibbrandt] to [Winterich, Mittal, Ross]): 18.35
+0.23, 0.18 ([Bogach, Leibbrandt] to [Yamagishi, Mifune, Liu, Pauling]): 18.22
+0.31, 0.27 ([Mifune, Hashimoto, Yamagishi] to [Jin, Shinotsuka]): 15.99
+0.30, 0.35 ([Güth, Ploner, Regner] to [Yamagishi, Mifune]): 15.90
+0.30, 0.35 ([Güth, Ploner, Regner] to [Ruffle, Sosis]): 15.90
+0.30, 0.34 ([Güth, Ploner, Regner] to [Goette, Huffman, Meier]): 15.90
+0.30, 0.34 ([Güth, Ploner, Regner] to [Jin, Yamagishi]): 15.90
+0.28, 0.32 ([Ioannou, Qi, Rustichini] to [Spiegelman]): 14.83
+0.29, 0.32 ([Whitt, Wilson] to [Spiegelman]): 14.83
+0.28, 0.32 ([Simpson] to [Spiegelman]): 14.83
+0.23, 0.26 ([Dion] to [Winterich, Mittal, Ross]): 14.57
+0.23, 0.19 ([Dion] to [Buchan, Johnson, Croson]): 14.29
+0.23, 0.19 ([Dion] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 14.29
+0.23, 0.19 ([Bogach, Leibbrandt] to [Buchan, Johnson, Croson]): 13.89
+0.23, 0.19 ([Bogach, Leibbrandt] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 13.89
+0.30, 0.27 ([Güth, Ploner, Regner] to [Jin, Shinotsuka]): 13.87
+0.14, 0.18 ([Wang, Yamagishi] to [Yamagishi, Mifune, Liu, Pauling]): 12.69
+0.24, 0.27 ([Dorrough, Glockner] to [Jin, Shinotsuka]): 12.53
+0.22, 0.25 ([Fowler, Kam] to [McLeish, Oxoby]): 12.19
+0.01, -0.02 ([Lei, Vesely] to [Güth, Levati, Ploner]): 12.00
+0.23, 0.26 ([Bogach, Leibbrandt] to [Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler]): 11.97
+0.31, 0.34 ([Mifune, Hashimoto, Yamagishi] to [Goette, Huffman, Meier]): 10.52
+0.31, 0.35 ([Mifune, Hashimoto, Yamagishi] to [Yamagishi, Mifune]): 10.52
+0.31, 0.35 ([Mifune, Hashimoto, Yamagishi] to [Ruffle, Sosis]): 10.52
+0.31, 0.34 ([Mifune, Hashimoto, Yamagishi] to [Jin, Yamagishi]): 10.52
+0.22, 0.18 ([Fowler, Kam] to [Thompson, Valley, Kramer]): 10.25
+0.20, 0.23 ([Yamagishi, Mifune] to [Dion]): 10.24
+0.23, 0.20 ([Dion] to [Mifune, Yamagishi]): 10.24
+0.23, 0.20 ([Bogach, Leibbrandt] to [Yamagishi, Mifune]): 9.84
+0.23, 0.20 ([Bogach, Leibbrandt] to [Mifune, Yamagishi]): 9.84
+0.26, 0.23 ([Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler] to [Dion]): 9.55
+0.20, 0.16 ([Yamagishi, Mifune] to [Kiyonari, Foddy, Yamagishi]): 8.95
+0.20, 0.15 ([Yamagishi, Mifune] to [Parks, Sanna, Berel]): 8.95
+0.16, 0.20 ([Kiyonari, Foddy, Yamagishi] to [Mifune, Yamagishi]): 8.95
+0.20, 0.15 ([Mifune, Yamagishi] to [Parks, Sanna, Berel]): 8.95
+0.20, 0.15 ([Yamagishi, Mifune] to [Guala, Mittone, Ploner]): 8.95
+0.20, 0.15 ([Yamagishi, Mifune] to [Yamagishi, Kiyonari]): 8.95
+0.15, 0.20 ([Guala, Mittone, Ploner] to [Mifune, Yamagishi]): 8.95
+0.20, 0.15 ([Mifune, Yamagishi] to [Yamagishi, Kiyonari]): 8.95
+0.22, 0.18 ([Fowler, Kam] to [Yamagishi, Mifune, Liu, Pauling]): 8.40
+-0.07, -0.02 ([Giner-Sorolla, Piazza, Vasiljevic, Van Vugt] to [Güth, Levati, Ploner]): 8.00
+0.16, 0.11 ([Kiyonari, Foddy, Yamagishi] to [Johansson-Stenman, Mahumud, Martinsson]): 7.99
+0.15, 0.11 ([Guala, Mittone, Ploner] to [Johansson-Stenman, Mahumud, Martinsson]): 7.99
+0.15, 0.11 ([Parks, Sanna, Berel] to [Johansson-Stenman, Mahumud, Martinsson]): 7.99
+0.15, 0.11 ([Yamagishi, Kiyonari] to [Johansson-Stenman, Mahumud, Martinsson]): 7.99
+0.18, 0.14 ([Thompson, Valley, Kramer] to [Wang, Yamagishi]): 7.85
+0.20, 0.16 ([Yamagishi, Mifune] to [Tanis, Postmes]): 7.25
+0.20, 0.16 ([Mifune, Yamagishi] to [Tanis, Postmes]): 7.25
+0.22, 0.24 ([Fowler, Kam] to [Dorrough, Glockner]): 6.99
+0.22, 0.19 ([Fowler, Kam] to [Buchan, Johnson, Croson]): 6.72
+0.22, 0.19 ([Fowler, Kam] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 6.72
+0.23, 0.25 ([Bogach, Leibbrandt] to [McLeish, Oxoby]): 6.56
+-0.07, -0.10 ([Giner-Sorolla, Piazza, Vasiljevic, Van Vugt] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 6.00
+0.25, 0.29 ([McLeish, Oxoby] to [Whitt, Wilson]): 5.34
+0.25, 0.28 ([McLeish, Oxoby] to [Simpson]): 5.34
+0.28, 0.25 ([Ioannou, Qi, Rustichini] to [McLeish, Oxoby]): 5.34
+0.25, 0.23 ([McLeish, Oxoby] to [Dion]): 5.29
+0.34, 0.32 ([Jin, Yamagishi] to [Spiegelman]): 5.16
+0.32, 0.35 ([Spiegelman] to [Ruffle, Sosis]): 5.16
+0.34, 0.32 ([Goette, Huffman, Meier] to [Spiegelman]): 5.16
+0.32, 0.35 ([Spiegelman] to [Yamagishi, Mifune]): 5.16
+0.24, 0.26 ([Dorrough, Glockner] to [Winterich, Mittal, Ross]): 5.12
+0.01, 0.03 ([Lei, Vesely] to [Wrightsman, Davis, Lucker, Bruininks, Evans, Wilde, Clark]): 5.00
+0.01, 0.03 ([Lei, Vesely] to [Simpson]): 5.00
+0.22, 0.20 ([Fowler, Kam] to [Yamagishi, Mifune]): 4.91
+0.22, 0.20 ([Fowler, Kam] to [Mifune, Yamagishi]): 4.91
+0.28, 0.31 ([Ioannou, Qi, Rustichini] to [Mifune, Hashimoto, Yamagishi]): 4.59
+0.31, 0.29 ([Mifune, Hashimoto, Yamagishi] to [Whitt, Wilson]): 4.59
+0.31, 0.28 ([Mifune, Hashimoto, Yamagishi] to [Simpson]): 4.59
+0.30, 0.28 ([Güth, Ploner, Regner] to [Ioannou, Qi, Rustichini]): 4.20
+0.30, 0.29 ([Güth, Ploner, Regner] to [Whitt, Wilson]): 4.20
+0.30, 0.28 ([Güth, Ploner, Regner] to [Simpson]): 4.20
+0.15, 0.19 ([Guala, Mittone, Ploner] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 4.14
+0.15, 0.19 ([Parks, Sanna, Berel] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 4.14
+0.15, 0.19 ([Yamagishi, Kiyonari] to [Buchan, Johnson, Croson]): 4.14
+0.15, 0.19 ([Yamagishi, Kiyonari] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 4.14
+0.16, 0.19 ([Kiyonari, Foddy, Yamagishi] to [Buchan, Johnson, Croson]): 4.14
+0.16, 0.19 ([Kiyonari, Foddy, Yamagishi] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 4.14
+0.15, 0.19 ([Guala, Mittone, Ploner] to [Buchan, Johnson, Croson]): 4.14
+0.15, 0.19 ([Parks, Sanna, Berel] to [Buchan, Johnson, Croson]): 4.14
+0.73, 0.69 ([Ahmed] to [Kiyonari]): 4.00
+0.69, 0.73 ([Kiyonari] to [Fershtman, Gneezy, Verboven]): 4.00
+-0.02, -0.04 ([Güth, Levati, Ploner] to [Holm]): 4.00
+0.16, 0.18 ([Kiyonari, Foddy, Yamagishi] to [Yamagishi, Mifune, Liu, Pauling]): 3.98
+0.15, 0.18 ([Guala, Mittone, Ploner] to [Yamagishi, Mifune, Liu, Pauling]): 3.98
+0.15, 0.18 ([Parks, Sanna, Berel] to [Yamagishi, Mifune, Liu, Pauling]): 3.98
+0.15, 0.18 ([Yamagishi, Kiyonari] to [Yamagishi, Mifune, Liu, Pauling]): 3.98
+0.28, 0.26 ([Ioannou, Qi, Rustichini] to [Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler]): 3.87
+0.26, 0.29 ([Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler] to [Whitt, Wilson]): 3.87
+0.26, 0.28 ([Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler] to [Simpson]): 3.87
+0.25, 0.27 ([McLeish, Oxoby] to [Jin, Shinotsuka]): 3.74
+0.28, 0.26 ([Ioannou, Qi, Rustichini] to [Winterich, Mittal, Ross]): 3.56
+0.29, 0.26 ([Whitt, Wilson] to [Winterich, Mittal, Ross]): 3.56
+0.28, 0.26 ([Simpson] to [Winterich, Mittal, Ross]): 3.56
+0.14, 0.17 ([Wang, Yamagishi] to [Koopmans, Rebers]): 3.53
+0.14, 0.17 ([Wang, Yamagishi] to [Bouckaert, Dhaene]): 3.53
+0.26, 0.24 ([Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler] to [Dorrough, Glockner]): 3.50
+0.23, 0.24 ([Bogach, Leibbrandt] to [Dorrough, Glockner]): 3.49
+0.19, 0.16 ([Buchan, Johnson, Croson] to [Tanis, Postmes]): 3.36
+0.19, 0.16 ([Takahashi, Yamagishi, Liu, Wang, Lin, Yu] to [Tanis, Postmes]): 3.36
+0.18, 0.16 ([Yamagishi, Mifune, Liu, Pauling] to [Tanis, Postmes]): 3.25
+0.30, 0.32 ([Güth, Ploner, Regner] to [Spiegelman]): 3.12
+0.14, 0.11 ([Wang, Yamagishi] to [Johansson-Stenman, Mahumud, Martinsson]): 3.03
+0.20, 0.17 ([Yamagishi, Mifune] to [Bouckaert, Dhaene]): 3.01
+0.20, 0.17 ([Yamagishi, Mifune] to [Koopmans, Rebers]): 3.01
+0.20, 0.17 ([Mifune, Yamagishi] to [Koopmans, Rebers]): 3.01
+0.20, 0.17 ([Mifune, Yamagishi] to [Bouckaert, Dhaene]): 3.01
+0.65, 0.69 ([Balliet, Tybur, Wu, Antonellis, Van Lange] to [Kiyonari]): 3.00
+0.55, 0.58 ([Goerg, Meise, Walkowitz, Winter] to [Ando]): 3.00
+0.65, 0.69 ([Goette, Huffman, Meier, Sutter] to [Kiyonari]): 3.00
+0.69, 0.67 ([Kiyonari] to [Hargreaves Heap, Zizzo]): 3.00
+0.23, 0.24 ([Dion] to [Dorrough, Glockner]): 2.86
+0.18, 0.16 ([Thompson, Valley, Kramer] to [Kiyonari, Foddy, Yamagishi]): 2.83
+0.18, 0.15 ([Thompson, Valley, Kramer] to [Guala, Mittone, Ploner]): 2.83
+0.18, 0.15 ([Thompson, Valley, Kramer] to [Parks, Sanna, Berel]): 2.83
+0.18, 0.15 ([Thompson, Valley, Kramer] to [Yamagishi, Kiyonari]): 2.83
+0.18, 0.16 ([Thompson, Valley, Kramer] to [Tanis, Postmes]): 2.32
+0.31, 0.32 ([Mifune, Hashimoto, Yamagishi] to [Spiegelman]): 2.28
+0.26, 0.27 ([Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler] to [Jin, Shinotsuka]): 2.28
+0.25, 0.24 ([McLeish, Oxoby] to [Dorrough, Glockner]): 2.06
+0.22, 0.23 ([Fowler, Kam] to [Dion]): 2.05
+-0.07, -0.04 ([Giner-Sorolla, Piazza, Vasiljevic, Van Vugt] to [Holm]): 2.00
+0.55, 0.51 ([Goerg, Meise, Walkowitz, Winter] to [Jackson]): 2.00
+0.55, 0.50 ([Goerg, Meise, Walkowitz, Winter] to [Dugar, Shahriar]): 2.00
+0.27, 0.26 ([Jin, Shinotsuka] to [Winterich, Mittal, Ross]): 1.96
+0.27, 0.28 ([Jin, Shinotsuka] to [Simpson]): 1.93
+0.28, 0.27 ([Ioannou, Qi, Rustichini] to [Jin, Shinotsuka]): 1.93
+0.29, 0.27 ([Whitt, Wilson] to [Jin, Shinotsuka]): 1.93
+0.25, 0.26 ([McLeish, Oxoby] to [Winterich, Mittal, Ross]): 1.90
+0.18, 0.20 ([Thompson, Valley, Kramer] to [Yamagishi, Mifune]): 1.88
+0.18, 0.20 ([Thompson, Valley, Kramer] to [Mifune, Yamagishi]): 1.88
+0.23, 0.22 ([Bogach, Leibbrandt] to [Fowler, Kam]): 1.86
+0.34, 0.36 ([Goette, Huffman, Meier] to [Morita, Servatka]): 1.86
+0.34, 0.36 ([Jin, Yamagishi] to [Morita, Servatka]): 1.86
+0.35, 0.36 ([Yamagishi, Mifune] to [Morita, Servatka]): 1.86
+0.36, 0.35 ([Morrison] to [Ruffle, Sosis]): 1.86
+0.35, 0.36 ([Ruffle, Sosis] to [Morita, Servatka]): 1.86
+0.36, 0.34 ([Baxter] to [Goette, Huffman, Meier]): 1.86
+0.36, 0.34 ([Baxter] to [Jin, Yamagishi]): 1.86
+0.36, 0.35 ([Baxter] to [Yamagishi, Mifune]): 1.86
+0.36, 0.35 ([Baxter] to [Ruffle, Sosis]): 1.86
+0.34, 0.36 ([Goette, Huffman, Meier] to [Morrison]): 1.86
+0.34, 0.36 ([Jin, Yamagishi] to [Morrison]): 1.86
+0.35, 0.36 ([Yamagishi, Mifune] to [Morrison]): 1.86
+0.14, 0.16 ([Wang, Yamagishi] to [Tanis, Postmes]): 1.85
+0.16, 0.17 ([Kiyonari, Foddy, Yamagishi] to [Bouckaert, Dhaene]): 1.72
+0.15, 0.17 ([Guala, Mittone, Ploner] to [Bouckaert, Dhaene]): 1.72
+0.15, 0.17 ([Parks, Sanna, Berel] to [Bouckaert, Dhaene]): 1.72
+0.15, 0.17 ([Yamagishi, Kiyonari] to [Bouckaert, Dhaene]): 1.72
+0.16, 0.17 ([Kiyonari, Foddy, Yamagishi] to [Koopmans, Rebers]): 1.72
+0.15, 0.17 ([Guala, Mittone, Ploner] to [Koopmans, Rebers]): 1.72
+0.15, 0.17 ([Parks, Sanna, Berel] to [Koopmans, Rebers]): 1.72
+0.15, 0.17 ([Yamagishi, Kiyonari] to [Koopmans, Rebers]): 1.72
+0.17, 0.19 ([Koopmans, Rebers] to [Buchan, Johnson, Croson]): 1.69
+0.17, 0.19 ([Koopmans, Rebers] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 1.69
+0.17, 0.19 ([Bouckaert, Dhaene] to [Buchan, Johnson, Croson]): 1.69
+0.17, 0.19 ([Bouckaert, Dhaene] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 1.69
+0.16, 0.14 ([Kiyonari, Foddy, Yamagishi] to [Wang, Yamagishi]): 1.65
+0.14, 0.15 ([Wang, Yamagishi] to [Guala, Mittone, Ploner]): 1.65
+0.14, 0.15 ([Wang, Yamagishi] to [Parks, Sanna, Berel]): 1.65
+0.14, 0.15 ([Wang, Yamagishi] to [Yamagishi, Kiyonari]): 1.65
+0.20, 0.18 ([Yamagishi, Mifune] to [Yamagishi, Mifune, Liu, Pauling]): 1.60
+0.20, 0.18 ([Mifune, Yamagishi] to [Yamagishi, Mifune, Liu, Pauling]): 1.60
+0.18, 0.17 ([Yamagishi, Mifune, Liu, Pauling] to [Koopmans, Rebers]): 1.58
+0.18, 0.17 ([Yamagishi, Mifune, Liu, Pauling] to [Bouckaert, Dhaene]): 1.58
+0.25, 0.26 ([McLeish, Oxoby] to [Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler]): 1.43
+0.17, 0.16 ([Koopmans, Rebers] to [Tanis, Postmes]): 1.43
+0.17, 0.16 ([Bouckaert, Dhaene] to [Tanis, Postmes]): 1.43
+0.20, 0.19 ([Yamagishi, Mifune] to [Buchan, Johnson, Croson]): 1.39
+0.20, 0.19 ([Yamagishi, Mifune] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 1.39
+0.20, 0.19 ([Mifune, Yamagishi] to [Buchan, Johnson, Croson]): 1.39
+0.20, 0.19 ([Mifune, Yamagishi] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 1.39
+0.18, 0.17 ([Thompson, Valley, Kramer] to [Koopmans, Rebers]): 1.28
+0.18, 0.17 ([Thompson, Valley, Kramer] to [Bouckaert, Dhaene]): 1.28
+0.18, 0.19 ([Thompson, Valley, Kramer] to [Buchan, Johnson, Croson]): 1.25
+0.18, 0.19 ([Thompson, Valley, Kramer] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 1.25
+0.16, 0.16 ([Kiyonari, Foddy, Yamagishi] to [Tanis, Postmes]): 1.20
+0.15, 0.16 ([Guala, Mittone, Ploner] to [Tanis, Postmes]): 1.20
+0.15, 0.16 ([Parks, Sanna, Berel] to [Tanis, Postmes]): 1.20
+0.15, 0.16 ([Yamagishi, Kiyonari] to [Tanis, Postmes]): 1.20
+0.30, 0.31 ([Güth, Ploner, Regner] to [Mifune, Hashimoto, Yamagishi]): 1.17
+0.26, 0.26 ([Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler] to [Winterich, Mittal, Ross]): 1.17
+0.23, 0.23 ([Bogach, Leibbrandt] to [Dion]): 1.14
+0.18, 0.18 ([Thompson, Valley, Kramer] to [Yamagishi, Mifune, Liu, Pauling]): 1.14
+0.18, 0.19 ([Yamagishi, Mifune, Liu, Pauling] to [Buchan, Johnson, Croson]): 1.11
+0.18, 0.19 ([Yamagishi, Mifune, Liu, Pauling] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 1.11

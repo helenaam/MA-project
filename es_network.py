@@ -91,9 +91,38 @@ def get_refs(reflist, index, condition):
             refs.append(r)
     return refs
 
+# Add edges to graph g (whose vertices represent the elements of references) based on
+# the number (common authors) / (total distinct authors) for each pair of references
+def edges_author(g, references):
+    i = 0
+    for r1 in references:
+        for r2 in references[references.index(r1) + 1:]:
+            num = float(r1.compare(r2)) / r1.total(r2)
+            if num > 0:
+                g.add_edges([(r1.citation, r2.citation)])
+                g.es[i]["weight"] = num * 6
+                i += 1
+    return g
+
+# Add edges between vertices of graph g iff the difference between their effect sizes is
+# less than threshold
+def edges_es(g, references, threshold):
+    i = 0
+    for r1 in references:
+        for r2 in references[references.index(r1) + 1:]:
+            diff = r1.effect - r2.effect
+            if diff > -.05 and diff < .05:
+                g.add_edges([(r1.citation, r2.citation)])
+                g.es[i]["weight"] = 100 * (.06 - diff)
+                i += 1
+    return g
+
 def main():
     if(len(sys.argv) < 2 or len(sys.argv) > 4):
-        print "Usage: {0} sheet_name [-r] [-d]".format(sys.argv[0])
+        # User enters "-r" to refresh data from Google Sheets, "-d" to store data to
+        # file instead of plotting it, "-e" to connect graph by effect size difference
+        # instead of common authors
+        print "Usage: {0} sheet_name [-r] [-d] [-e]".format(sys.argv[0])
         return -1
     # If needed, refresh data in input file
     if "-r" in sys.argv:
@@ -131,15 +160,11 @@ def main():
             g.vs[i]["effect"] = r.effect
             g.vs[i]["authors"] = r.authors
             i += 1
-        i = 0
-        # Calculate edge weights
-        for r1 in references:
-            for r2 in references[references.index(r1) + 1:]:
-                num = float(r1.compare(r2)) / r1.total(r2)
-                if num > 0:
-                    g.add_edges([(r1.citation, r2.citation)])
-                    g.es[i]["weight"] = num * 6
-                    i += 1
+        # Add edges and calculate edge weights
+        if "-e" in sys.argv:
+            g = edges_es(g, references, .05)
+        else:
+            g = edges_author(g, references)
         # Store network data into file if user entered '-d'
         if "-d" in sys.argv:
             filename = "data/" + sys.argv[1] + "/"
@@ -163,7 +188,10 @@ def main():
                     filename += "n"
                 if conditions.index(condition) < num_conditions - 1 and len(condition) > 1 and condition != "any":
                     filename += "-"
-            get_data.get_data_papers(g, filename)
+            if "-e" in sys.argv:
+                get_data.get_data_papers(g, filename + "_es")
+            else:
+                get_data.get_data_papers(g, filename)
         # Plot graph
         elif len(references) > 0:
             min_effect = min(float(g.vs['effect'][v.index]) for v in g.vs)

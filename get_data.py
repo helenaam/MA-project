@@ -77,8 +77,8 @@ def get_data_papers(g, filename):
                 file.write("%s" % a.name)
                 if v["authors"].index(a) < len(v["authors"]) - 1:
                     file.write(", ")
-            file.write("): %.2f" % v['betweenness'])
-        file.write("\n\n\n")
+            file.write("): %.2f\n" % v['betweenness'])
+        file.write("\n\n")
         # Get cluster data and write it to the file
         file.write("Clusters\n\n")
         clusters = g.clusters(mode = STRONG)
@@ -102,6 +102,8 @@ def get_data_papers(g, filename):
                 effects = [[g.vs[vertex]['effect']] for vertex in c]
                 file.write("\n\tMean: %.2f\n\tStandard deviation: %.2f\n\n" % (np.mean(effects), np.std(effects)))
         file.write("\n")
+        # Get mean and standard deviation for the whole network
+        file.write("Network mean: %.2f\nNetwork standard deviation: %.2f\n\n" % (np.mean(g.vs['effect']), np.std(g.vs['effect'])))
         # Get edge betweenness data and write to file
         file.write("Edge betweenness\n\n")
         edges = []

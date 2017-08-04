@@ -1,0 +1,43 @@
+Vertex betweenness
+
+0.32 (Spiegelman): 32.00
+0.27 (Jin, Shinotsuka): 24.17
+0.23 (Dion): 15.67
+0.20 (Mifune, Yamagishi): 14.67
+0.24 (Dorrough, Glockner): 13.67
+0.28 (Simpson): 6.67
+0.18 (Yamagishi, Mifune, Liu, Pauling): 4.17
+
+
+Clusters
+
+0.36, 0.23, 0.24, 0.34, 0.15, 0.27, 0.34, 0.20, 0.28, 0.32, 0.15, 0.35, 0.18
+[Baxter]; [Dion]; [Dorrough, Glockner]; [Goette, Huffman, Meier]; [Guala, Mittone, Ploner]; [Jin, Shinotsuka]; [Jin, Yamagishi]; [Mifune, Yamagishi]; [Simpson]; [Spiegelman]; [Yamagishi, Kiyonari]; [Yamagishi, Mifune]; [Yamagishi, Mifune, Liu, Pauling]; 
+	Mean: 0.26
+	Standard deviation: 0.07
+
+
+Network mean: 0.45
+Network standard deviation: 0.47
+
+Edge betweenness
+
+0.27, 0.32 ([Jin, Shinotsuka] to [Spiegelman]): 28.33
+0.23, 0.27 ([Dion] to [Jin, Shinotsuka]): 21.33
+0.24, 0.20 ([Dorrough, Glockner] to [Mifune, Yamagishi]): 16.33
+0.23, 0.18 ([Dion] to [Yamagishi, Mifune, Liu, Pauling]): 12.33
+0.24, 0.28 ([Dorrough, Glockner] to [Simpson]): 11.83
+0.28, 0.32 ([Simpson] to [Spiegelman]): 11.67
+0.36, 0.32 ([Baxter] to [Spiegelman]): 9.00
+0.34, 0.32 ([Goette, Huffman, Meier] to [Spiegelman]): 9.00
+0.34, 0.32 ([Jin, Yamagishi] to [Spiegelman]): 9.00
+0.32, 0.35 ([Spiegelman] to [Yamagishi, Mifune]): 9.00
+0.24, 0.27 ([Dorrough, Glockner] to [Jin, Shinotsuka]): 8.83
+0.15, 0.20 ([Guala, Mittone, Ploner] to [Mifune, Yamagishi]): 7.92
+0.20, 0.15 ([Mifune, Yamagishi] to [Yamagishi, Kiyonari]): 7.92
+0.23, 0.20 ([Dion] to [Mifune, Yamagishi]): 7.33
+0.15, 0.18 ([Guala, Mittone, Ploner] to [Yamagishi, Mifune, Liu, Pauling]): 3.08
+0.15, 0.18 ([Yamagishi, Kiyonari] to [Yamagishi, Mifune, Liu, Pauling]): 3.08
+0.23, 0.24 ([Dion] to [Dorrough, Glockner]): 2.33
+0.27, 0.28 ([Jin, Shinotsuka] to [Simpson]): 1.83
+0.20, 0.18 ([Mifune, Yamagishi] to [Yamagishi, Mifune, Liu, Pauling]): 1.83

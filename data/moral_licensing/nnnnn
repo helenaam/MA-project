@@ -6,6 +6,9 @@ Vertex betweenness
 Clusters
 
 
+Network mean: 0.34
+Network standard deviation: 0.29
+
 Edge betweenness
 
 0.10, 0.15 ([Blanken, Van de Ven, Zeelenberg, Meijers] to [Blanken, Van de Ven, Zeelenberg]): 2.00

@@ -1,51 +1,59 @@
 Vertex betweenness
 
--0.10 (Yamagishi, Makimura, Foddy, Kiyonari, Platow): 15.000.34 (Jin, Yamagishi): 12.000.16 (Kiyonari, Foddy, Yamagishi): 3.000.15 (Yamagishi, Kiyonari): 3.00
+-0.10 (Yamagishi, Makimura, Foddy, Kiyonari, Platow): 15.00
+0.34 (Jin, Yamagishi): 12.00
+0.16 (Kiyonari, Foddy, Yamagishi): 3.00
+0.15 (Yamagishi, Kiyonari): 3.00
 
 
 Clusters
 
 0.31, 0.20, 0.16, 0.14, 0.27, 0.34, 0.20, 0.15, 0.35, -0.10, 0.18, 0.44, 0.69, 0.19
 [Mifune, Hashimoto, Yamagishi]; [Yamagishi, Mifune]; [Kiyonari, Foddy, Yamagishi]; [Wang, Yamagishi]; [Jin, Shinotsuka]; [Jin, Yamagishi]; [Mifune, Yamagishi]; [Yamagishi, Kiyonari]; [Yamagishi, Mifune]; [Yamagishi, Makimura, Foddy, Kiyonari, Platow]; [Yamagishi, Mifune, Liu, Pauling]; [Platow, Durante, Williams, Garrett, Walshe, Cincotta, Barutchu]; [Kiyonari]; [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]; 
+	Mean: 0.25
+	Standard deviation: 0.17
 
+
+Network mean: 0.33
+Network standard deviation: 0.39
 
 Edge betweenness
 
-0.27, 0.34 ([Jin, Shinotsuka] to [Jin, Yamagishi]): 13.0
--0.10, 0.44 ([Yamagishi, Makimura, Foddy, Kiyonari, Platow] to [Platow, Durante, Williams, Garrett, Walshe, Cincotta, Barutchu]): 13.0
--0.10, 0.69 ([Yamagishi, Makimura, Foddy, Kiyonari, Platow] to [Kiyonari]): 5.0
-0.34, -0.10 ([Jin, Yamagishi] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 4.66666666667
-0.16, 0.69 ([Kiyonari, Foddy, Yamagishi] to [Kiyonari]): 4.0
-0.15, 0.69 ([Yamagishi, Kiyonari] to [Kiyonari]): 4.0
-0.16, 0.34 ([Kiyonari, Foddy, Yamagishi] to [Jin, Yamagishi]): 2.66666666667
-0.34, 0.15 ([Jin, Yamagishi] to [Yamagishi, Kiyonari]): 2.66666666667
-0.31, -0.10 ([Mifune, Hashimoto, Yamagishi] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.33333333333
-0.20, -0.10 ([Yamagishi, Mifune] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.33333333333
-0.14, -0.10 ([Wang, Yamagishi] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.33333333333
-0.20, -0.10 ([Mifune, Yamagishi] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.33333333333
-0.35, -0.10 ([Yamagishi, Mifune] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.33333333333
--0.10, 0.18 ([Yamagishi, Makimura, Foddy, Kiyonari, Platow] to [Yamagishi, Mifune, Liu, Pauling]): 2.33333333333
--0.10, 0.19 ([Yamagishi, Makimura, Foddy, Kiyonari, Platow] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 2.33333333333
-0.31, 0.34 ([Mifune, Hashimoto, Yamagishi] to [Jin, Yamagishi]): 2.0
-0.20, 0.34 ([Yamagishi, Mifune] to [Jin, Yamagishi]): 2.0
-0.16, -0.10 ([Kiyonari, Foddy, Yamagishi] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.0
-0.14, 0.34 ([Wang, Yamagishi] to [Jin, Yamagishi]): 2.0
-0.34, 0.20 ([Jin, Yamagishi] to [Mifune, Yamagishi]): 2.0
-0.34, 0.35 ([Jin, Yamagishi] to [Yamagishi, Mifune]): 2.0
-0.34, 0.18 ([Jin, Yamagishi] to [Yamagishi, Mifune, Liu, Pauling]): 2.0
-0.34, 0.19 ([Jin, Yamagishi] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 2.0
-0.15, -0.10 ([Yamagishi, Kiyonari] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.0
-0.31, 0.16 ([Mifune, Hashimoto, Yamagishi] to [Kiyonari, Foddy, Yamagishi]): 1.33333333333
-0.31, 0.15 ([Mifune, Hashimoto, Yamagishi] to [Yamagishi, Kiyonari]): 1.33333333333
-0.20, 0.16 ([Yamagishi, Mifune] to [Kiyonari, Foddy, Yamagishi]): 1.33333333333
-0.20, 0.15 ([Yamagishi, Mifune] to [Yamagishi, Kiyonari]): 1.33333333333
-0.16, 0.14 ([Kiyonari, Foddy, Yamagishi] to [Wang, Yamagishi]): 1.33333333333
-0.16, 0.20 ([Kiyonari, Foddy, Yamagishi] to [Mifune, Yamagishi]): 1.33333333333
-0.16, 0.35 ([Kiyonari, Foddy, Yamagishi] to [Yamagishi, Mifune]): 1.33333333333
-0.16, 0.18 ([Kiyonari, Foddy, Yamagishi] to [Yamagishi, Mifune, Liu, Pauling]): 1.33333333333
-0.16, 0.19 ([Kiyonari, Foddy, Yamagishi] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 1.33333333333
-0.14, 0.15 ([Wang, Yamagishi] to [Yamagishi, Kiyonari]): 1.33333333333
-0.20, 0.15 ([Mifune, Yamagishi] to [Yamagishi, Kiyonari]): 1.33333333333
-0.15, 0.35 ([Yamagishi, Kiyonari] to [Yamagishi, Mifune]): 1.33333333333
-0.15, 0.18 ([Yamagishi, Kiyonari] to [Yamagishi, Mifune, Liu, Pauling]): 1.33333333333
-0.15, 0.19 ([Yamagishi, Kiyonari] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 1.33333333333
+0.27, 0.34 ([Jin, Shinotsuka] to [Jin, Yamagishi]): 13.00
+-0.10, 0.44 ([Yamagishi, Makimura, Foddy, Kiyonari, Platow] to [Platow, Durante, Williams, Garrett, Walshe, Cincotta, Barutchu]): 13.00
+-0.10, 0.69 ([Yamagishi, Makimura, Foddy, Kiyonari, Platow] to [Kiyonari]): 5.00
+0.34, -0.10 ([Jin, Yamagishi] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 4.67
+0.16, 0.69 ([Kiyonari, Foddy, Yamagishi] to [Kiyonari]): 4.00
+0.15, 0.69 ([Yamagishi, Kiyonari] to [Kiyonari]): 4.00
+0.16, 0.34 ([Kiyonari, Foddy, Yamagishi] to [Jin, Yamagishi]): 2.67
+0.34, 0.15 ([Jin, Yamagishi] to [Yamagishi, Kiyonari]): 2.67
+0.31, -0.10 ([Mifune, Hashimoto, Yamagishi] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.33
+0.20, -0.10 ([Yamagishi, Mifune] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.33
+0.14, -0.10 ([Wang, Yamagishi] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.33
+0.20, -0.10 ([Mifune, Yamagishi] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.33
+0.35, -0.10 ([Yamagishi, Mifune] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.33
+-0.10, 0.18 ([Yamagishi, Makimura, Foddy, Kiyonari, Platow] to [Yamagishi, Mifune, Liu, Pauling]): 2.33
+-0.10, 0.19 ([Yamagishi, Makimura, Foddy, Kiyonari, Platow] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 2.33
+0.31, 0.34 ([Mifune, Hashimoto, Yamagishi] to [Jin, Yamagishi]): 2.00
+0.20, 0.34 ([Yamagishi, Mifune] to [Jin, Yamagishi]): 2.00
+0.16, -0.10 ([Kiyonari, Foddy, Yamagishi] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.00
+0.14, 0.34 ([Wang, Yamagishi] to [Jin, Yamagishi]): 2.00
+0.34, 0.20 ([Jin, Yamagishi] to [Mifune, Yamagishi]): 2.00
+0.34, 0.35 ([Jin, Yamagishi] to [Yamagishi, Mifune]): 2.00
+0.34, 0.18 ([Jin, Yamagishi] to [Yamagishi, Mifune, Liu, Pauling]): 2.00
+0.34, 0.19 ([Jin, Yamagishi] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 2.00
+0.15, -0.10 ([Yamagishi, Kiyonari] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.00
+0.31, 0.16 ([Mifune, Hashimoto, Yamagishi] to [Kiyonari, Foddy, Yamagishi]): 1.33
+0.31, 0.15 ([Mifune, Hashimoto, Yamagishi] to [Yamagishi, Kiyonari]): 1.33
+0.20, 0.16 ([Yamagishi, Mifune] to [Kiyonari, Foddy, Yamagishi]): 1.33
+0.20, 0.15 ([Yamagishi, Mifune] to [Yamagishi, Kiyonari]): 1.33
+0.16, 0.14 ([Kiyonari, Foddy, Yamagishi] to [Wang, Yamagishi]): 1.33
+0.16, 0.20 ([Kiyonari, Foddy, Yamagishi] to [Mifune, Yamagishi]): 1.33
+0.16, 0.35 ([Kiyonari, Foddy, Yamagishi] to [Yamagishi, Mifune]): 1.33
+0.16, 0.18 ([Kiyonari, Foddy, Yamagishi] to [Yamagishi, Mifune, Liu, Pauling]): 1.33
+0.16, 0.19 ([Kiyonari, Foddy, Yamagishi] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 1.33
+0.14, 0.15 ([Wang, Yamagishi] to [Yamagishi, Kiyonari]): 1.33
+0.20, 0.15 ([Mifune, Yamagishi] to [Yamagishi, Kiyonari]): 1.33
+0.15, 0.35 ([Yamagishi, Kiyonari] to [Yamagishi, Mifune]): 1.33
+0.15, 0.18 ([Yamagishi, Kiyonari] to [Yamagishi, Mifune, Liu, Pauling]): 1.33
+0.15, 0.19 ([Yamagishi, Kiyonari] to [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]): 1.33

@@ -1,0 +1,20 @@
+Vertex betweenness
+
+2.00 (Cleland): 1.00
+
+
+Clusters
+
+1.25, 1.28, 1.24, 1.28, 1.28
+[Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst]; [Bernolet, Hartsuiker, Pickering]; [Bernolet, Hartsuiker, Pickering]; [Kaschak, Loney, Borreggine]; [Bernolet, Hartsuiker, Pickering]; 
+	Mean: 1.27
+	Standard deviation: 0.02
+
+
+Network mean: 1.35
+Network standard deviation: 0.69
+
+Edge betweenness
+
+2.00, 2.04 ([Cleland] to [Bunger, Papafragou, Trueswell]): 2.00
+2.00, 1.96 ([Cleland] to [Kaschak]): 2.00

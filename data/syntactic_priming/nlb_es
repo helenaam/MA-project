@@ -1,0 +1,136 @@
+Vertex betweenness
+
+0.50 (Goudbeek, Krahmer): 88.00
+0.45 (Desmet, Declercq): 84.00
+0.80 (Bernolet, Hartsuiker): 34.96
+0.83 (Santesteban, Pickering, McLean): 28.00
+0.55 (Ivanova, Pickering, Branigan, McLean, Costa): 22.90
+0.72 (Jaeger, Snider): 22.00
+0.71 (Bernolet, Hartsuiker, Pickering): 22.00
+0.52 (Branigan, Pickering, Cleland): 19.55
+0.53 (Cleland, Pickering): 19.55
+0.52 (Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck): 19.55
+0.75 (Slevc, Ferreira): 18.16
+0.76 (Bunger, Papafragou, Trueswell): 18.16
+0.38 (Ferreira, Bock, Wilson, Cohen): 18.00
+0.87 (Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita): 15.00
+0.57 (Segaert, Menenti, Weber, Hagoort): 14.80
+0.56 (Schoonbaert, Hartsuiker, Pickering): 14.80
+0.77 (Hartsuiker, Pickering, Veltkamp): 13.79
+0.43 (Bock, Loebell, Morey): 7.00
+0.43 (Bock): 7.00
+0.42 (Kantola, van Gompel): 7.00
+0.42 (Bock, Loebell): 7.00
+0.51 (Bock): 5.85
+0.68 (Myachykov, Garrod, Scheepers): 4.33
+0.68 (Corley, Scheepers): 4.33
+0.68 (Pickering, Branigan): 4.33
+0.82 (Pappert, Pechmann): 3.75
+0.73 (Kaschak, Kutta, Jones): 2.06
+0.73 (Salamoura, Williams): 2.06
+0.74 (Salamoura, Williams): 2.06
+
+
+Clusters
+
+0.80, 0.72, 0.83, 0.75, 0.87, 0.82, 0.76, 0.88, 0.68, 0.68, 0.73, 0.68, 0.65, 0.71, 0.77, 0.73, 0.74
+[Bernolet, Hartsuiker]; [Jaeger, Snider]; [Santesteban, Pickering, McLean]; [Slevc, Ferreira]; [Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita]; [Pappert, Pechmann]; [Bunger, Papafragou, Trueswell]; [Melinger, Cleland]; [Myachykov, Garrod, Scheepers]; [Corley, Scheepers]; [Kaschak, Kutta, Jones]; [Pickering, Branigan]; [Scheepers]; [Bernolet, Hartsuiker, Pickering]; [Hartsuiker, Pickering, Veltkamp]; [Salamoura, Williams]; [Salamoura, Williams]; 
+	Mean: 0.75
+	Standard deviation: 0.07
+
+0.43, 0.38, 0.50, 0.59, 0.44, 0.60, 0.55, 0.51, 0.57, 0.52, 0.53, 0.43, 0.45, 0.58, 0.42, 0.35, 0.42, 0.56, 0.52, 0.58
+[Bock, Loebell, Morey]; [Ferreira, Bock, Wilson, Cohen]; [Goudbeek, Krahmer]; [Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst]; [Hartsuiker]; [Hartsuiker, Westenberg]; [Ivanova, Pickering, Branigan, McLean, Costa]; [Bock]; [Segaert, Menenti, Weber, Hagoort]; [Branigan, Pickering, Cleland]; [Cleland, Pickering]; [Bock]; [Desmet, Declercq]; [Hartsuiker, Kolk]; [Kantola, van Gompel]; [Loncke, Van Laere, Desmet]; [Bock, Loebell]; [Schoonbaert, Hartsuiker, Pickering]; [Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck]; [Chen, Jia, Wang, Dunlap, Shin]; 
+	Mean: 0.50
+	Standard deviation: 0.07
+
+
+Network mean: 0.74
+Network standard deviation: 0.39
+
+Edge betweenness
+
+0.50, 0.45 ([Goudbeek, Krahmer] to [Desmet, Declercq]): 96.00
+0.80, 0.83 ([Bernolet, Hartsuiker] to [Santesteban, Pickering, McLean]): 35.25
+0.83, 0.87 ([Santesteban, Pickering, McLean] to [Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita]): 30.00
+0.50, 0.52 ([Goudbeek, Krahmer] to [Branigan, Pickering, Cleland]): 28.05
+0.50, 0.53 ([Goudbeek, Krahmer] to [Cleland, Pickering]): 28.05
+0.50, 0.52 ([Goudbeek, Krahmer] to [Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck]): 28.05
+0.80, 0.75 ([Bernolet, Hartsuiker] to [Slevc, Ferreira]): 20.61
+0.80, 0.76 ([Bernolet, Hartsuiker] to [Bunger, Papafragou, Trueswell]): 20.61
+0.43, 0.45 ([Bock, Loebell, Morey] to [Desmet, Declercq]): 19.50
+0.43, 0.45 ([Bock] to [Desmet, Declercq]): 19.50
+0.45, 0.42 ([Desmet, Declercq] to [Kantola, van Gompel]): 19.50
+0.45, 0.42 ([Desmet, Declercq] to [Bock, Loebell]): 19.50
+0.38, 0.35 ([Ferreira, Bock, Wilson, Cohen] to [Loncke, Van Laere, Desmet]): 19.00
+0.87, 0.88 ([Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita] to [Melinger, Cleland]): 16.00
+0.50, 0.51 ([Goudbeek, Krahmer] to [Bock]): 14.85
+0.82, 0.77 ([Pappert, Pechmann] to [Hartsuiker, Pickering, Veltkamp]): 13.04
+0.44, 0.45 ([Hartsuiker] to [Desmet, Declercq]): 13.00
+0.55, 0.51 ([Ivanova, Pickering, Branigan, McLean, Costa] to [Bock]): 11.35
+0.72, 0.75 ([Jaeger, Snider] to [Slevc, Ferreira]): 10.46
+0.72, 0.76 ([Jaeger, Snider] to [Bunger, Papafragou, Trueswell]): 10.46
+0.75, 0.71 ([Slevc, Ferreira] to [Bernolet, Hartsuiker, Pickering]): 10.46
+0.76, 0.71 ([Bunger, Papafragou, Trueswell] to [Bernolet, Hartsuiker, Pickering]): 10.46
+0.57, 0.52 ([Segaert, Menenti, Weber, Hagoort] to [Branigan, Pickering, Cleland]): 9.18
+0.57, 0.53 ([Segaert, Menenti, Weber, Hagoort] to [Cleland, Pickering]): 9.18
+0.57, 0.52 ([Segaert, Menenti, Weber, Hagoort] to [Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck]): 9.18
+0.52, 0.56 ([Branigan, Pickering, Cleland] to [Schoonbaert, Hartsuiker, Pickering]): 9.18
+0.53, 0.56 ([Cleland, Pickering] to [Schoonbaert, Hartsuiker, Pickering]): 9.18
+0.56, 0.52 ([Schoonbaert, Hartsuiker, Pickering] to [Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck]): 9.18
+0.43, 0.38 ([Bock, Loebell, Morey] to [Ferreira, Bock, Wilson, Cohen]): 9.00
+0.38, 0.43 ([Ferreira, Bock, Wilson, Cohen] to [Bock]): 9.00
+0.38, 0.42 ([Ferreira, Bock, Wilson, Cohen] to [Kantola, van Gompel]): 9.00
+0.38, 0.42 ([Ferreira, Bock, Wilson, Cohen] to [Bock, Loebell]): 9.00
+0.72, 0.68 ([Jaeger, Snider] to [Pickering, Branigan]): 8.67
+0.72, 0.68 ([Jaeger, Snider] to [Myachykov, Garrod, Scheepers]): 8.67
+0.72, 0.68 ([Jaeger, Snider] to [Corley, Scheepers]): 8.67
+0.68, 0.71 ([Myachykov, Garrod, Scheepers] to [Bernolet, Hartsuiker, Pickering]): 8.67
+0.68, 0.71 ([Corley, Scheepers] to [Bernolet, Hartsuiker, Pickering]): 8.67
+0.68, 0.71 ([Pickering, Branigan] to [Bernolet, Hartsuiker, Pickering]): 8.67
+0.55, 0.52 ([Ivanova, Pickering, Branigan, McLean, Costa] to [Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck]): 8.18
+0.55, 0.52 ([Ivanova, Pickering, Branigan, McLean, Costa] to [Branigan, Pickering, Cleland]): 8.18
+0.55, 0.53 ([Ivanova, Pickering, Branigan, McLean, Costa] to [Cleland, Pickering]): 8.18
+0.83, 0.82 ([Santesteban, Pickering, McLean] to [Pappert, Pechmann]): 6.75
+0.59, 0.55 ([Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst] to [Ivanova, Pickering, Branigan, McLean, Costa]): 6.60
+0.60, 0.55 ([Hartsuiker, Westenberg] to [Ivanova, Pickering, Branigan, McLean, Costa]): 6.60
+0.55, 0.58 ([Ivanova, Pickering, Branigan, McLean, Costa] to [Hartsuiker, Kolk]): 6.60
+0.55, 0.58 ([Ivanova, Pickering, Branigan, McLean, Costa] to [Chen, Jia, Wang, Dunlap, Shin]): 6.60
+0.73, 0.77 ([Kaschak, Kutta, Jones] to [Hartsuiker, Pickering, Veltkamp]): 5.89
+0.77, 0.73 ([Hartsuiker, Pickering, Veltkamp] to [Salamoura, Williams]): 5.89
+0.77, 0.74 ([Hartsuiker, Pickering, Veltkamp] to [Salamoura, Williams]): 5.89
+0.80, 0.77 ([Bernolet, Hartsuiker] to [Hartsuiker, Pickering, Veltkamp]): 5.75
+0.68, 0.65 ([Myachykov, Garrod, Scheepers] to [Scheepers]): 5.33
+0.68, 0.65 ([Corley, Scheepers] to [Scheepers]): 5.33
+0.68, 0.65 ([Pickering, Branigan] to [Scheepers]): 5.33
+0.57, 0.58 ([Segaert, Menenti, Weber, Hagoort] to [Hartsuiker, Kolk]): 4.70
+0.59, 0.57 ([Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst] to [Segaert, Menenti, Weber, Hagoort]): 4.70
+0.60, 0.57 ([Hartsuiker, Westenberg] to [Segaert, Menenti, Weber, Hagoort]): 4.70
+0.60, 0.56 ([Hartsuiker, Westenberg] to [Schoonbaert, Hartsuiker, Pickering]): 4.70
+0.58, 0.56 ([Hartsuiker, Kolk] to [Schoonbaert, Hartsuiker, Pickering]): 4.70
+0.59, 0.56 ([Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst] to [Schoonbaert, Hartsuiker, Pickering]): 4.70
+0.57, 0.58 ([Segaert, Menenti, Weber, Hagoort] to [Chen, Jia, Wang, Dunlap, Shin]): 4.70
+0.56, 0.58 ([Schoonbaert, Hartsuiker, Pickering] to [Chen, Jia, Wang, Dunlap, Shin]): 4.70
+0.72, 0.73 ([Jaeger, Snider] to [Kaschak, Kutta, Jones]): 4.03
+0.72, 0.73 ([Jaeger, Snider] to [Salamoura, Williams]): 4.03
+0.72, 0.74 ([Jaeger, Snider] to [Salamoura, Williams]): 4.03
+0.73, 0.71 ([Kaschak, Kutta, Jones] to [Bernolet, Hartsuiker, Pickering]): 4.03
+0.71, 0.73 ([Bernolet, Hartsuiker, Pickering] to [Salamoura, Williams]): 4.03
+0.71, 0.74 ([Bernolet, Hartsuiker, Pickering] to [Salamoura, Williams]): 4.03
+0.80, 0.82 ([Bernolet, Hartsuiker] to [Pappert, Pechmann]): 3.71
+0.75, 0.77 ([Slevc, Ferreira] to [Hartsuiker, Pickering, Veltkamp]): 3.56
+0.76, 0.77 ([Bunger, Papafragou, Trueswell] to [Hartsuiker, Pickering, Veltkamp]): 3.56
+0.75, 0.73 ([Slevc, Ferreira] to [Kaschak, Kutta, Jones]): 2.08
+0.75, 0.73 ([Slevc, Ferreira] to [Salamoura, Williams]): 2.08
+0.75, 0.74 ([Slevc, Ferreira] to [Salamoura, Williams]): 2.08
+0.76, 0.73 ([Bunger, Papafragou, Trueswell] to [Kaschak, Kutta, Jones]): 2.08
+0.76, 0.73 ([Bunger, Papafragou, Trueswell] to [Salamoura, Williams]): 2.08
+0.76, 0.74 ([Bunger, Papafragou, Trueswell] to [Salamoura, Williams]): 2.08
+0.43, 0.44 ([Bock, Loebell, Morey] to [Hartsuiker]): 1.50
+0.44, 0.43 ([Hartsuiker] to [Bock]): 1.50
+0.44, 0.42 ([Hartsuiker] to [Kantola, van Gompel]): 1.50
+0.44, 0.42 ([Hartsuiker] to [Bock, Loebell]): 1.50
+0.51, 0.52 ([Bock] to [Branigan, Pickering, Cleland]): 1.50
+0.51, 0.53 ([Bock] to [Cleland, Pickering]): 1.50
+0.51, 0.52 ([Bock] to [Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck]): 1.50
+0.55, 0.57 ([Ivanova, Pickering, Branigan, McLean, Costa] to [Segaert, Menenti, Weber, Hagoort]): 1.25
+0.55, 0.56 ([Ivanova, Pickering, Branigan, McLean, Costa] to [Schoonbaert, Hartsuiker, Pickering]): 1.25
