@@ -71,28 +71,42 @@ def get_data_papers(g, filename):
                 if v["authors"].index(a) < len(v["authors"]) - 1:
                     file.write(", ")
             file.write("): %.2f" % v['betweenness'])
-        file.write("\n\n")
+        file.write("\n\n\n")
     # Get cluster data and write it to the file
         file.write("Clusters\n\n")
         clusters = g.clusters(mode = STRONG)
         for c in clusters:
             if len(c) >= 5:
                 for vertex in c:
-                    file.write(g.vs[vertex]["name"])
+                    v = g.vs[vertex]
+                    file.write("%.2f" % v["effect"])
                     if c.index(vertex) < len(c) - 1:
                         file.write(", ")
+                file.write("\n")
+                for vertex in c:
+                    file.write("[")
+                    v = g.vs[vertex]
+                    for author in v["authors"][:len(v["authors"]) - 1]:
+                        file.write(author.name + ", ")
+                    file.write(v["authors"][len(v["authors"]) - 1].name + "]; ")
                 file.write("\n\n")
         file.write("\n")
-#     # Get edge betweenness data and write to file
-#         file.write("Edge betweenness\n\n")
-#         edges = []
-#         i = 0
-#         for e in g.es:
-#             eb = g.edge_betweenness()[e.index]
-#             g.es[i]['betweenness'] = eb
-#             i += 1
-#             if eb > 1:
-#                 edges.append(e)
-#         edges.sort(key = operator.itemgetter('betweenness'), reverse = True)
-#         for e in edges:
-#             file.write("%s, %s: %.2f\n" % (g.vs[e.source]['name'], g.vs[e.target]['name'], g.edge_betweenness()[e.index]))
+    # Get edge betweenness data and write to file
+        file.write("Edge betweenness\n\n")
+        edges = []
+        i = 0
+        for e in g.es:
+            eb = g.edge_betweenness()[e.index]
+            g.es[i]['betweenness'] = eb
+            i += 1
+            if eb > 1:
+                edges.append(e)
+        edges.sort(key = operator.itemgetter('betweenness'), reverse = True)
+        for e in edges:
+            file.write("%.2f, %.2f ([" % (g.vs[e.source]["effect"], g.vs[e.target]["effect"]))
+            for auth in g.vs[e.source]['authors'][:len(g.vs[e.source]['authors']) - 1]:
+                file.write(auth.name + ", ")
+            file.write(g.vs[e.source]['authors'][len(g.vs[e.source]['authors']) - 1].name + "] to [")
+            for auth in g.vs[e.target]['authors'][:len(g.vs[e.target]['authors']) - 1]:
+                file.write(auth.name + ", ")
+            file.write(g.vs[e.target]['authors'][len(g.vs[e.target]['authors']) - 1].name + "]): " + str(e['betweenness']) + "\n")
