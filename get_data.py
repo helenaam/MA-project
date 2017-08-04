@@ -4,6 +4,7 @@ from author import *
 from reference_v2 import *
 from igraph import *
 import sys
+import os
 
 # Gets network data (vertex/edge betweenness, clusters) from network of authors
 # and stores it in a file
@@ -51,6 +52,10 @@ def get_data_authors(g, filename):
 # Gets network data (vertex/edge betweenness, clusters) from network of papers
 # and stores it in a file
 def get_data_papers(g, filename):
+    # If graph contains no vertices, end function
+    if len(g.vs) == 0:
+        return
+    data = False
     # Get betweenness data and write it to the file
     with open(filename, 'w') as file:
         file.write("Vertex betweenness\n\n")
@@ -62,6 +67,8 @@ def get_data_papers(g, filename):
             i += 1
             if betweenness > 0:
                 vertices.append(v)
+            if len(vertices) > 0:
+                data = True
         vertices.sort(key = operator.itemgetter('betweenness'), reverse = True)
         for v in vertices:
             file.write("%.2f (" % (v['effect']))
@@ -72,9 +79,11 @@ def get_data_papers(g, filename):
                     file.write(", ")
             file.write("): %.2f" % v['betweenness'])
         file.write("\n\n\n")
-    # Get cluster data and write it to the file
+        # Get cluster data and write it to the file
         file.write("Clusters\n\n")
         clusters = g.clusters(mode = STRONG)
+        if len(clusters) > 0:
+            data = True
         for c in clusters:
             if len(c) >= 5:
                 for vertex in c:
@@ -89,9 +98,11 @@ def get_data_papers(g, filename):
                     for author in v["authors"][:len(v["authors"]) - 1]:
                         file.write(author.name + ", ")
                     file.write(v["authors"][len(v["authors"]) - 1].name + "]; ")
-                file.write("\n\n")
+                # Get mean and standard deviation of effect sizes in each cluster
+                effects = [[g.vs[vertex]['effect']] for vertex in c]
+                file.write("\n\tMean: %.2f\n\tStandard deviation: %.2f\n\n" % (np.mean(effects), np.std(effects)))
         file.write("\n")
-    # Get edge betweenness data and write to file
+        # Get edge betweenness data and write to file
         file.write("Edge betweenness\n\n")
         edges = []
         i = 0
@@ -101,6 +112,8 @@ def get_data_papers(g, filename):
             i += 1
             if eb > 1:
                 edges.append(e)
+        if len(edges) > 0:
+            data = True
         edges.sort(key = operator.itemgetter('betweenness'), reverse = True)
         for e in edges:
             file.write("%.2f, %.2f ([" % (g.vs[e.source]["effect"], g.vs[e.target]["effect"]))
@@ -110,3 +123,5 @@ def get_data_papers(g, filename):
             for auth in g.vs[e.target]['authors'][:len(g.vs[e.target]['authors']) - 1]:
                 file.write(auth.name + ", ")
             file.write(g.vs[e.target]['authors'][len(g.vs[e.target]['authors']) - 1].name + "]): %.2f\n" % e['betweenness'])
+        if not data:
+            os.remove(filename)

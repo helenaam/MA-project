@@ -7,17 +7,19 @@ Clusters
 
 0.58, 0.62, 0.25, 0.11, 0.53, 0.26, 0.42
 [De Cremer, Van Vugt]; [De Cremer, Van Vugt]; [De Cremer, Van Vugt]; [De Cremer, Van Knippenberg, van Dijk, van Leeuwen]; [Van Vugt, De Cremer]; [Van Vugt, Hart]; [Van Vugt, De Cremer, Janssen]; 
+	Mean: 0.39
+	Standard deviation: 0.18
 
 
 Edge betweenness
 
-0.58, 0.11 ([De Cremer, Van Vugt] to [De Cremer, Van Knippenberg, van Dijk, van Leeuwen]): 1.2
-0.62, 0.11 ([De Cremer, Van Vugt] to [De Cremer, Van Knippenberg, van Dijk, van Leeuwen]): 1.2
-0.25, 0.11 ([De Cremer, Van Vugt] to [De Cremer, Van Knippenberg, van Dijk, van Leeuwen]): 1.2
-0.11, 0.53 ([De Cremer, Van Knippenberg, van Dijk, van Leeuwen] to [Van Vugt, De Cremer]): 1.2
-0.58, 0.26 ([De Cremer, Van Vugt] to [Van Vugt, Hart]): 1.2
-0.62, 0.26 ([De Cremer, Van Vugt] to [Van Vugt, Hart]): 1.2
-0.25, 0.26 ([De Cremer, Van Vugt] to [Van Vugt, Hart]): 1.2
-0.11, 0.42 ([De Cremer, Van Knippenberg, van Dijk, van Leeuwen] to [Van Vugt, De Cremer, Janssen]): 1.2
-0.53, 0.26 ([Van Vugt, De Cremer] to [Van Vugt, Hart]): 1.2
-0.26, 0.42 ([Van Vugt, Hart] to [Van Vugt, De Cremer, Janssen]): 1.2
+0.58, 0.11 ([De Cremer, Van Vugt] to [De Cremer, Van Knippenberg, van Dijk, van Leeuwen]): 1.20
+0.62, 0.11 ([De Cremer, Van Vugt] to [De Cremer, Van Knippenberg, van Dijk, van Leeuwen]): 1.20
+0.25, 0.11 ([De Cremer, Van Vugt] to [De Cremer, Van Knippenberg, van Dijk, van Leeuwen]): 1.20
+0.11, 0.53 ([De Cremer, Van Knippenberg, van Dijk, van Leeuwen] to [Van Vugt, De Cremer]): 1.20
+0.58, 0.26 ([De Cremer, Van Vugt] to [Van Vugt, Hart]): 1.20
+0.62, 0.26 ([De Cremer, Van Vugt] to [Van Vugt, Hart]): 1.20
+0.25, 0.26 ([De Cremer, Van Vugt] to [Van Vugt, Hart]): 1.20
+0.11, 0.42 ([De Cremer, Van Knippenberg, van Dijk, van Leeuwen] to [Van Vugt, De Cremer, Janssen]): 1.20
+0.53, 0.26 ([Van Vugt, De Cremer] to [Van Vugt, Hart]): 1.20
+0.26, 0.42 ([Van Vugt, Hart] to [Van Vugt, De Cremer, Janssen]): 1.20

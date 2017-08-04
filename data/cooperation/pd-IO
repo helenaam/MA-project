@@ -7,13 +7,15 @@ Clusters
 
 0.27, 0.34, 0.20, 0.15, 0.35, -0.10, 0.18
 [Jin, Shinotsuka]; [Jin, Yamagishi]; [Mifune, Yamagishi]; [Yamagishi, Kiyonari]; [Yamagishi, Mifune]; [Yamagishi, Makimura, Foddy, Kiyonari, Platow]; [Yamagishi, Mifune, Liu, Pauling]; 
+	Mean: 0.20
+	Standard deviation: 0.14
 
 
 Edge betweenness
 
-0.27, 0.34 ([Jin, Shinotsuka] to [Jin, Yamagishi]): 6.0
-0.34, 0.20 ([Jin, Yamagishi] to [Mifune, Yamagishi]): 2.0
-0.34, 0.15 ([Jin, Yamagishi] to [Yamagishi, Kiyonari]): 2.0
-0.34, 0.35 ([Jin, Yamagishi] to [Yamagishi, Mifune]): 2.0
-0.34, -0.10 ([Jin, Yamagishi] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.0
-0.34, 0.18 ([Jin, Yamagishi] to [Yamagishi, Mifune, Liu, Pauling]): 2.0
+0.27, 0.34 ([Jin, Shinotsuka] to [Jin, Yamagishi]): 6.00
+0.34, 0.20 ([Jin, Yamagishi] to [Mifune, Yamagishi]): 2.00
+0.34, 0.15 ([Jin, Yamagishi] to [Yamagishi, Kiyonari]): 2.00
+0.34, 0.35 ([Jin, Yamagishi] to [Yamagishi, Mifune]): 2.00
+0.34, -0.10 ([Jin, Yamagishi] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.00
+0.34, 0.18 ([Jin, Yamagishi] to [Yamagishi, Mifune, Liu, Pauling]): 2.00

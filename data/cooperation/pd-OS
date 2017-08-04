@@ -8,6 +8,6 @@ Clusters
 
 Edge betweenness
 
--0.17, -0.05 ([Jin, Shinotsuka] to [Jin, Yamagishi]): 3.0
--0.05, 0.04 ([Jin, Yamagishi] to [Yamagishi, Mifune]): 2.0
--0.05, 0.08 ([Jin, Yamagishi] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.0
+-0.17, -0.05 ([Jin, Shinotsuka] to [Jin, Yamagishi]): 3.00
+-0.05, 0.04 ([Jin, Yamagishi] to [Yamagishi, Mifune]): 2.00
+-0.05, 0.08 ([Jin, Yamagishi] to [Yamagishi, Makimura, Foddy, Kiyonari, Platow]): 2.00

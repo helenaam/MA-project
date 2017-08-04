@@ -7,9 +7,13 @@ Clusters
 
 0.80, 1.87, 1.22, 0.59, 0.44, 1.66, 1.14, 0.83, 1.16, 0.87, 0.60, 0.55, 0.88, 0.52, 1.06, 1.21, 0.53, 0.58, 0.68, 0.71, 1.32, 1.44, 0.77, 0.56, 0.52
 [Bernolet, Hartsuiker]; [Cai, Pickering, Sturt]; [Cai, Pickering, Yan, Branigan]; [Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst]; [Hartsuiker]; [Messenger, Branigan, McLean]; [Messenger, Branigan, McLean, Sorace]; [Santesteban, Pickering, McLean]; [Bernolet, Hartsuiker, Pickering]; [Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita]; [Hartsuiker, Westenberg]; [Ivanova, Pickering, Branigan, McLean, Costa]; [Melinger, Cleland]; [Branigan, Pickering, Cleland]; [Branigan, Pickering, McLean, Stewart]; [Branigan, Pickering, Stewart, McLean]; [Cleland, Pickering]; [Hartsuiker, Kolk]; [Pickering, Branigan]; [Bernolet, Hartsuiker, Pickering]; [Bernolet, Hartsuiker, Pickering]; [Fleischer, Pickering, McLean]; [Hartsuiker, Pickering, Veltkamp]; [Schoonbaert, Hartsuiker, Pickering]; [Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck]; 
+	Mean: 0.90
+	Standard deviation: 0.38
 
 0.43, 0.38, 0.14, 0.75, 0.51, 0.43, 0.28, 0.30, 0.20, 0.42
 [Bock, Loebell, Morey]; [Ferreira, Bock, Wilson, Cohen]; [Rowland, Chang, Ambridge, Pine, Lieven]; [Slevc, Ferreira]; [Bock]; [Bock]; [Bock, Dell, Chang, Onishi]; [Bock, Griffin]; [Loebell, Bock]; [Bock, Loebell]; 
+	Mean: 0.38
+	Standard deviation: 0.16
 
 
 Edge betweenness
