@@ -18,13 +18,35 @@ Vertex betweenness
 Clusters
 
 1.07, 0.93, 1.69, 3.17, 2.00, 1.25, 0.02, -0.16, 1.28, 1.59, 1.24, 2.45, 2.43, 1.67, 1.37, 1.65, 1.02, 1.10, 0.86, 1.28, 2.78, 1.58
-[Branigan, Pickering, McLean, Cleland]; [Cai, Pickering, Sturt]; [Cai, Pickering, Branigan]; [Cai, Pickering, Yan, Branigan]; [Cleland]; [Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst]; [Hartsuiker, Kolk]; [Hartsuiker, Kolk]; [Bernolet, Hartsuiker, Pickering]; [Santesteban, Pickering, McLean]; [Bernolet, Hartsuiker, Pickering]; [Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita]; [Flett, Branigan, Pickering]; [Ivanova, Pickering, McLean, Costa, Branigan]; [Melinger, Cleland]; [Melinger, Cleland]; [Cleland, Pickering]; [Pickering, Branigan]; [Pickering, Branigan, McLean]; [Bernolet, Hartsuiker, Pickering]; [Bernolet, Hartsuiker, Pickering]; [Schoonbaert, Hartsuiker, Pickering]; 
-	Mean: 1.47
-	Standard deviation: 0.77
-
+Mean: 1.47
+Standard deviation: 0.77
+Cluster size: 22
+	Branigan, Pickering, McLean, Cleland
+	Cai, Pickering, Sturt
+	Cai, Pickering, Branigan
+	Cai, Pickering, Yan, Branigan
+	Cleland
+	Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst
+	Hartsuiker, Kolk
+	Hartsuiker, Kolk
+	Bernolet, Hartsuiker, Pickering
+	Santesteban, Pickering, McLean
+	Bernolet, Hartsuiker, Pickering
+	Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita
+	Flett, Branigan, Pickering
+	Ivanova, Pickering, McLean, Costa, Branigan
+	Melinger, Cleland
+	Melinger, Cleland
+	Cleland, Pickering
+	Pickering, Branigan
+	Pickering, Branigan, McLean
+	Bernolet, Hartsuiker, Pickering
+	Bernolet, Hartsuiker, Pickering
+	Schoonbaert, Hartsuiker, Pickering
 
 Network mean: 1.35
 Network standard deviation: 0.69
+Network size: 36
 
 Edge betweenness
 

@@ -10,13 +10,20 @@ Vertex betweenness
 Clusters
 
 0.58, 0.62, 0.25, 0.11, 0.53, 0.26, 0.42
-[De Cremer, Van Vugt]; [De Cremer, Van Vugt]; [De Cremer, Van Vugt]; [De Cremer, Van Knippenberg, van Dijk, van Leeuwen]; [Van Vugt, De Cremer]; [Van Vugt, Hart]; [Van Vugt, De Cremer, Janssen]; 
-	Mean: 0.39
-	Standard deviation: 0.18
-
+Mean: 0.39
+Standard deviation: 0.18
+Cluster size: 7
+	De Cremer, Van Vugt
+	De Cremer, Van Vugt
+	De Cremer, Van Vugt
+	De Cremer, Van Knippenberg, van Dijk, van Leeuwen
+	Van Vugt, De Cremer
+	Van Vugt, Hart
+	Van Vugt, De Cremer, Janssen
 
 Network mean: 0.43
 Network standard deviation: 0.37
+Network size: 11
 
 Edge betweenness
 

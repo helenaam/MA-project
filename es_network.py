@@ -10,13 +10,12 @@ import get_data
 #import cPickle
 #import pickle
 
-# Use creds to create a client to interact with Google Drive API
-scope = ['https://spreadsheets.google.com/feeds']
-creds = ServiceAccountCredentials.from_json_keyfile_name('client_secret.json', scope)
-client = gspread.authorize(creds)
-
 # Refresh data in the file by reading from Google spreadsheet
 def refresh(filename):
+    # Use creds to create a client to interact with Google Drive API
+    scope = ['https://spreadsheets.google.com/feeds']
+    creds = ServiceAccountCredentials.from_json_keyfile_name('client_secret.json', scope)
+    client = gspread.authorize(creds)
     # Pickle doesn't work :(
 #    pickle = cPickle.Pickler(open(filename, "wb"))
 #    ppickle = pickle.Pickler(open(filename, "wb"))

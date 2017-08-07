@@ -8,13 +8,18 @@ Vertex betweenness
 Clusters
 
 0.30, 0.33, 0.36, 0.38, 0.34
-[Dorrough, Glockner]; [Goerg, Meise, Walkowitz, Winter]; [Goette, Huffman, Meier]; [Goette, Huffman, Meier]; [Yamagishi, Mifune]; 
-	Mean: 0.34
-	Standard deviation: 0.03
-
+Mean: 0.34
+Standard deviation: 0.03
+Cluster size: 5
+	Dorrough, Glockner
+	Goerg, Meise, Walkowitz, Winter
+	Goette, Huffman, Meier
+	Goette, Huffman, Meier
+	Yamagishi, Mifune
 
 Network mean: 0.38
 Network standard deviation: 0.23
+Network size: 12
 
 Edge betweenness
 

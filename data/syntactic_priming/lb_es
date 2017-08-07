@@ -6,13 +6,18 @@ Vertex betweenness
 Clusters
 
 1.25, 1.28, 1.24, 1.28, 1.28
-[Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst]; [Bernolet, Hartsuiker, Pickering]; [Bernolet, Hartsuiker, Pickering]; [Kaschak, Loney, Borreggine]; [Bernolet, Hartsuiker, Pickering]; 
-	Mean: 1.27
-	Standard deviation: 0.02
-
+Mean: 1.27
+Standard deviation: 0.02
+Cluster size: 5
+	Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst
+	Bernolet, Hartsuiker, Pickering
+	Bernolet, Hartsuiker, Pickering
+	Kaschak, Loney, Borreggine
+	Bernolet, Hartsuiker, Pickering
 
 Network mean: 1.35
 Network standard deviation: 0.69
+Network size: 36
 
 Edge betweenness
 

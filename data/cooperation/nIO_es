@@ -42,23 +42,72 @@ Vertex betweenness
 Clusters
 
 0.23, 0.22, 0.30, 0.28, 0.25, 0.31, 0.26, 0.18, 0.29, 0.20, 0.16, 0.14, 0.36, 0.23, 0.24, 0.34, 0.15, 0.27, 0.34, 0.20, 0.15, 0.28, 0.32, 0.15, 0.35, 0.18, 0.17, 0.36, 0.26, 0.35, 0.17, 0.19, 0.11, 0.19, 0.16, 0.36
-[Bogach, Leibbrandt]; [Fowler, Kam]; [Güth, Ploner, Regner]; [Ioannou, Qi, Rustichini]; [McLeish, Oxoby]; [Mifune, Hashimoto, Yamagishi]; [Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler]; [Thompson, Valley, Kramer]; [Whitt, Wilson]; [Yamagishi, Mifune]; [Kiyonari, Foddy, Yamagishi]; [Wang, Yamagishi]; [Baxter]; [Dion]; [Dorrough, Glockner]; [Goette, Huffman, Meier]; [Guala, Mittone, Ploner]; [Jin, Shinotsuka]; [Jin, Yamagishi]; [Mifune, Yamagishi]; [Parks, Sanna, Berel]; [Simpson]; [Spiegelman]; [Yamagishi, Kiyonari]; [Yamagishi, Mifune]; [Yamagishi, Mifune, Liu, Pauling]; [Koopmans, Rebers]; [Morrison]; [Winterich, Mittal, Ross]; [Ruffle, Sosis]; [Bouckaert, Dhaene]; [Buchan, Johnson, Croson]; [Johansson-Stenman, Mahumud, Martinsson]; [Takahashi, Yamagishi, Liu, Wang, Lin, Yu]; [Tanis, Postmes]; [Morita, Servatka]; 
-	Mean: 0.24
-	Standard deviation: 0.07
+Mean: 0.24
+Standard deviation: 0.07
+Cluster size: 36
+	Bogach, Leibbrandt
+	Fowler, Kam
+	Güth, Ploner, Regner
+	Ioannou, Qi, Rustichini
+	McLeish, Oxoby
+	Mifune, Hashimoto, Yamagishi
+	Rand, Pfeiffer, Dreber, Sheketoff, Wernerfelt, Benkler
+	Thompson, Valley, Kramer
+	Whitt, Wilson
+	Yamagishi, Mifune
+	Kiyonari, Foddy, Yamagishi
+	Wang, Yamagishi
+	Baxter
+	Dion
+	Dorrough, Glockner
+	Goette, Huffman, Meier
+	Guala, Mittone, Ploner
+	Jin, Shinotsuka
+	Jin, Yamagishi
+	Mifune, Yamagishi
+	Parks, Sanna, Berel
+	Simpson
+	Spiegelman
+	Yamagishi, Kiyonari
+	Yamagishi, Mifune
+	Yamagishi, Mifune, Liu, Pauling
+	Koopmans, Rebers
+	Morrison
+	Winterich, Mittal, Ross
+	Ruffle, Sosis
+	Bouckaert, Dhaene
+	Buchan, Johnson, Croson
+	Johansson-Stenman, Mahumud, Martinsson
+	Takahashi, Yamagishi, Liu, Wang, Lin, Yu
+	Tanis, Postmes
+	Morita, Servatka
 
 -0.07, 0.01, 0.03, -0.10, -0.02, 0.03, -0.04
-[Giner-Sorolla, Piazza, Vasiljevic, Van Vugt]; [Lei, Vesely]; [Wrightsman, Davis, Lucker, Bruininks, Evans, Wilde, Clark]; [Yamagishi, Makimura, Foddy, Kiyonari, Platow]; [Güth, Levati, Ploner]; [Simpson]; [Holm]; 
-	Mean: -0.02
-	Standard deviation: 0.05
+Mean: -0.02
+Standard deviation: 0.05
+Cluster size: 7
+	Giner-Sorolla, Piazza, Vasiljevic, Van Vugt
+	Lei, Vesely
+	Wrightsman, Davis, Lucker, Bruininks, Evans, Wilde, Clark
+	Yamagishi, Makimura, Foddy, Kiyonari, Platow
+	Güth, Levati, Ploner
+	Simpson
+	Holm
 
 0.73, 0.65, 0.65, 0.69, 0.73, 0.67
-[Ahmed]; [Balliet, Tybur, Wu, Antonellis, Van Lange]; [Goette, Huffman, Meier, Sutter]; [Kiyonari]; [Fershtman, Gneezy, Verboven]; [Hargreaves Heap, Zizzo]; 
-	Mean: 0.69
-	Standard deviation: 0.04
-
+Mean: 0.69
+Standard deviation: 0.04
+Cluster size: 6
+	Ahmed
+	Balliet, Tybur, Wu, Antonellis, Van Lange
+	Goette, Huffman, Meier, Sutter
+	Kiyonari
+	Fershtman, Gneezy, Verboven
+	Hargreaves Heap, Zizzo
 
 Network mean: 0.33
 Network standard deviation: 0.39
+Network size: 64
 
 Edge betweenness
 

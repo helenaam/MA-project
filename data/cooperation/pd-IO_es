@@ -12,13 +12,26 @@ Vertex betweenness
 Clusters
 
 0.36, 0.23, 0.24, 0.34, 0.15, 0.27, 0.34, 0.20, 0.28, 0.32, 0.15, 0.35, 0.18
-[Baxter]; [Dion]; [Dorrough, Glockner]; [Goette, Huffman, Meier]; [Guala, Mittone, Ploner]; [Jin, Shinotsuka]; [Jin, Yamagishi]; [Mifune, Yamagishi]; [Simpson]; [Spiegelman]; [Yamagishi, Kiyonari]; [Yamagishi, Mifune]; [Yamagishi, Mifune, Liu, Pauling]; 
-	Mean: 0.26
-	Standard deviation: 0.07
-
+Mean: 0.26
+Standard deviation: 0.07
+Cluster size: 13
+	Baxter
+	Dion
+	Dorrough, Glockner
+	Goette, Huffman, Meier
+	Guala, Mittone, Ploner
+	Jin, Shinotsuka
+	Jin, Yamagishi
+	Mifune, Yamagishi
+	Simpson
+	Spiegelman
+	Yamagishi, Kiyonari
+	Yamagishi, Mifune
+	Yamagishi, Mifune, Liu, Pauling
 
 Network mean: 0.45
 Network standard deviation: 0.47
+Network size: 25
 
 Edge betweenness
 

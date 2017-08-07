@@ -16,23 +16,45 @@ Vertex betweenness
 Clusters
 
 0.41, 0.58, 0.49, 0.43, 0.46, 0.53, 0.41, 0.48, 0.41, 0.41
-[Brown, Tamborski, Wang, Barnes, Mumford, Connely, Devenport]; [Cain, Loewenstein, Moore]; [Choi, Crandall, La]; [Conway, Peetz]; [Cornelissen, Karelaia, Soyer]; [Khan, Dhar]; [Mazar, Zhong]; [Merritt, Effron, Fein, Savitsky, Tuller, Monin]; [Susewind, Hoelzl]; [Young, Chakroff, Tom]; 
-	Mean: 0.46
-	Standard deviation: 0.06
+Mean: 0.46
+Standard deviation: 0.06
+Cluster size: 10
+	Brown, Tamborski, Wang, Barnes, Mumford, Connely, Devenport
+	Cain, Loewenstein, Moore
+	Choi, Crandall, La
+	Conway, Peetz
+	Cornelissen, Karelaia, Soyer
+	Khan, Dhar
+	Mazar, Zhong
+	Merritt, Effron, Fein, Savitsky, Tuller, Monin
+	Susewind, Hoelzl
+	Young, Chakroff, Tom
 
 0.76, 0.65, 0.70, 0.71, 0.69, 0.76
-[Cascio, Plant]; [Cornelissen, Bashshur, Rode, Le Menestrel]; [Jordan, Mullen, Murnighan]; [Mann, Kawakami]; [Monin, Miller]; [Sachdeva, Iliev, Medin]; 
-	Mean: 0.71
-	Standard deviation: 0.04
+Mean: 0.71
+Standard deviation: 0.04
+Cluster size: 6
+	Cascio, Plant
+	Cornelissen, Bashshur, Rode, Le Menestrel
+	Jordan, Mullen, Murnighan
+	Mann, Kawakami
+	Monin, Miller
+	Sachdeva, Iliev, Medin
 
 0.35, 0.23, 0.30, 0.32, 0.25, 0.29
-[Clot, Grolleau, Ibanez]; [Clot, Grolleau, Ibanez]; [Clot, Grolleau, Ibanez]; [Effron, Cameron, Monin]; [Effron, Monin, Miller]; [Meijers, Noordewier, Verlegh, Smit]; 
-	Mean: 0.29
-	Standard deviation: 0.04
-
+Mean: 0.29
+Standard deviation: 0.04
+Cluster size: 6
+	Clot, Grolleau, Ibanez
+	Clot, Grolleau, Ibanez
+	Clot, Grolleau, Ibanez
+	Effron, Cameron, Monin
+	Effron, Monin, Miller
+	Meijers, Noordewier, Verlegh, Smit
 
 Network mean: 0.34
 Network standard deviation: 0.29
+Network size: 30
 
 Edge betweenness
 

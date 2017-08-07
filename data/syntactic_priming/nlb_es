@@ -34,18 +34,55 @@ Vertex betweenness
 Clusters
 
 0.80, 0.72, 0.83, 0.75, 0.87, 0.82, 0.76, 0.88, 0.68, 0.68, 0.73, 0.68, 0.65, 0.71, 0.77, 0.73, 0.74
-[Bernolet, Hartsuiker]; [Jaeger, Snider]; [Santesteban, Pickering, McLean]; [Slevc, Ferreira]; [Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita]; [Pappert, Pechmann]; [Bunger, Papafragou, Trueswell]; [Melinger, Cleland]; [Myachykov, Garrod, Scheepers]; [Corley, Scheepers]; [Kaschak, Kutta, Jones]; [Pickering, Branigan]; [Scheepers]; [Bernolet, Hartsuiker, Pickering]; [Hartsuiker, Pickering, Veltkamp]; [Salamoura, Williams]; [Salamoura, Williams]; 
-	Mean: 0.75
-	Standard deviation: 0.07
+Mean: 0.75
+Standard deviation: 0.07
+Cluster size: 17
+	Bernolet, Hartsuiker
+	Jaeger, Snider
+	Santesteban, Pickering, McLean
+	Slevc, Ferreira
+	Slocombe, Alvarez, Branigan, Jellema, Burnett, Fischer, Levita
+	Pappert, Pechmann
+	Bunger, Papafragou, Trueswell
+	Melinger, Cleland
+	Myachykov, Garrod, Scheepers
+	Corley, Scheepers
+	Kaschak, Kutta, Jones
+	Pickering, Branigan
+	Scheepers
+	Bernolet, Hartsuiker, Pickering
+	Hartsuiker, Pickering, Veltkamp
+	Salamoura, Williams
+	Salamoura, Williams
 
 0.43, 0.38, 0.50, 0.59, 0.44, 0.60, 0.55, 0.51, 0.57, 0.52, 0.53, 0.43, 0.45, 0.58, 0.42, 0.35, 0.42, 0.56, 0.52, 0.58
-[Bock, Loebell, Morey]; [Ferreira, Bock, Wilson, Cohen]; [Goudbeek, Krahmer]; [Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst]; [Hartsuiker]; [Hartsuiker, Westenberg]; [Ivanova, Pickering, Branigan, McLean, Costa]; [Bock]; [Segaert, Menenti, Weber, Hagoort]; [Branigan, Pickering, Cleland]; [Cleland, Pickering]; [Bock]; [Desmet, Declercq]; [Hartsuiker, Kolk]; [Kantola, van Gompel]; [Loncke, Van Laere, Desmet]; [Bock, Loebell]; [Schoonbaert, Hartsuiker, Pickering]; [Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck]; [Chen, Jia, Wang, Dunlap, Shin]; 
-	Mean: 0.50
-	Standard deviation: 0.07
-
+Mean: 0.50
+Standard deviation: 0.07
+Cluster size: 20
+	Bock, Loebell, Morey
+	Ferreira, Bock, Wilson, Cohen
+	Goudbeek, Krahmer
+	Hartsuiker, Bernolet, Schoonbaert, Speybroeck, Vanderelst
+	Hartsuiker
+	Hartsuiker, Westenberg
+	Ivanova, Pickering, Branigan, McLean, Costa
+	Bock
+	Segaert, Menenti, Weber, Hagoort
+	Branigan, Pickering, Cleland
+	Cleland, Pickering
+	Bock
+	Desmet, Declercq
+	Hartsuiker, Kolk
+	Kantola, van Gompel
+	Loncke, Van Laere, Desmet
+	Bock, Loebell
+	Schoonbaert, Hartsuiker, Pickering
+	Verreyt, Bogaerts, Cop, Bernolet, De Letter, Hemelsoet, Duyck
+	Chen, Jia, Wang, Dunlap, Shin
 
 Network mean: 0.74
 Network standard deviation: 0.39
+Network size: 56
 
 Edge betweenness
 
