@@ -20,6 +20,7 @@ Clusters
 1.07, 0.93, 1.69, 3.17, 2.00, 1.25, 0.02, -0.16, 1.28, 1.59, 1.24, 2.45, 2.43, 1.67, 1.37, 1.65, 1.02, 1.10, 0.86, 1.28, 2.78, 1.58
 Mean: 1.47
 Standard deviation: 0.77
+Average difference: 0.65
 Cluster size: 22
 	Branigan, Pickering, McLean, Cleland
 	Cai, Pickering, Sturt
@@ -46,6 +47,7 @@ Cluster size: 22
 
 Network mean: 1.35
 Network standard deviation: 0.69
+Average difference: 0.78
 Network size: 36
 
 Edge betweenness

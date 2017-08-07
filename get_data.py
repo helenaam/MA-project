@@ -83,10 +83,8 @@ def get_data_papers(g, filename):
         file.write("Clusters\n\n")
         clusters = g.clusters(mode = STRONG)
         for c in clusters:
-            if len(c) >= 5:
-                data = True
-        for c in clusters:
             if len(c) >=  5:
+                data = True
                 # Write the list of effect sizes
                 effects = []
                 for vertex in c:
@@ -96,10 +94,20 @@ def get_data_papers(g, filename):
                     if c.index(vertex) < len(c) - 1:
                         file.write(", ")
                 file.write("\n")
-                # Write the mean, standard deviation, and cluster size
+                # Record the mean and standard deviation of effect sizes
                 file.write("Mean: %.2f\n" % np.mean(effects))
                 file.write("Standard deviation: %.2f\n" % np.std(effects))
+                # Calculate average effect size difference within cluster
+                diff = []
+                for vertex1 in c:
+                    v1 = g.vs[vertex]
+                    for vertex2 in c[:c.index(vertex1)]:
+                        v2 = g.vs[vertex2]
+                        diff.append(abs(v1['effect'] - v2['effect']))
+                file.write("Average difference: %.2f\n" % abs(np.mean(diff)))
+                # Record the size of the cluster
                 file.write("Cluster size: %d\n" % len(c))
+                # Record authors of each paper in cluster
                 for vertex in c:
                     v = g.vs[vertex]
                     file.write("\t")
@@ -107,8 +115,16 @@ def get_data_papers(g, filename):
                         file.write(author.name + ", ")
                     file.write(v["authors"][len(v["authors"]) - 1].name + "\n")
                 file.write("\n")
-        # Get mean, standard deviation, and size for the whole network
-        file.write("Network mean: %.2f\nNetwork standard deviation: %.2f\n" % (np.mean(g.vs['effect']), np.std(g.vs['effect'])))
+        # Calculate mean and standard deviation of effect sizes in network
+        file.write("Network mean: %.2f\n" % np.mean(g.vs['effect']))
+        file.write("Network standard deviation: %.2f\n" % np.std(g.vs['effect']))
+        # Record average ES difference for whole network
+        diff = []
+        for v1 in g.vs:
+            for v2 in g.vs[:v1.index]:
+                diff.append(abs(v1['effect'] - v2['effect']))
+        file.write("Average difference: %.2f\n" % abs(np.mean(diff)))
+        # Record size of network
         file.write("Network size: " + str(len(g.vs)) + "\n\n")
         # Get edge betweenness data and write to file
         file.write("Edge betweenness\n\n")

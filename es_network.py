@@ -1,4 +1,4 @@
-import numpy as np
+1import numpy as np
 np.set_printoptions(threshold = 'nan')
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials

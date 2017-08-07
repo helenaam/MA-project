@@ -8,6 +8,7 @@ Clusters
 0.27, 0.34, 0.20, 0.15, 0.35, -0.10, 0.18
 Mean: 0.20
 Standard deviation: 0.14
+Average difference: 0.10
 Cluster size: 7
 	Jin, Shinotsuka
 	Jin, Yamagishi
@@ -19,6 +20,7 @@ Cluster size: 7
 
 Network mean: 0.45
 Network standard deviation: 0.47
+Average difference: 0.46
 Network size: 25
 
 Edge betweenness

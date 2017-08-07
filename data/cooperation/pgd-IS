@@ -12,6 +12,7 @@ Clusters
 0.58, 0.62, 0.25, 0.11, 0.53, 0.26, 0.42
 Mean: 0.39
 Standard deviation: 0.18
+Average difference: 0.19
 Cluster size: 7
 	De Cremer, Van Vugt
 	De Cremer, Van Vugt
@@ -23,6 +24,7 @@ Cluster size: 7
 
 Network mean: 0.43
 Network standard deviation: 0.37
+Average difference: 0.40
 Network size: 11
 
 Edge betweenness

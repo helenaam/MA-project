@@ -11,6 +11,7 @@ Clusters
 0.31, 0.20, 0.16, 0.14, 0.27, 0.34, 0.20, 0.15, 0.35, -0.10, 0.18, 0.44, 0.69, 0.19
 Mean: 0.25
 Standard deviation: 0.17
+Average difference: 0.08
 Cluster size: 14
 	Mifune, Hashimoto, Yamagishi
 	Yamagishi, Mifune
@@ -29,6 +30,7 @@ Cluster size: 14
 
 Network mean: 0.33
 Network standard deviation: 0.39
+Average difference: 0.38
 Network size: 64
 
 Edge betweenness
