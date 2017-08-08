@@ -1,4 +1,4 @@
-1import numpy as np
+import numpy as np
 np.set_printoptions(threshold = 'nan')
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
@@ -7,6 +7,7 @@ from author import *
 import sys
 from igraph import *
 import get_data
+import matplotlib.pyplot as plt
 #import cPickle
 #import pickle
 
@@ -117,11 +118,11 @@ def edges_es(g, references, threshold):
     return g
 
 def main():
-    if(len(sys.argv) < 2 or len(sys.argv) > 4):
+    if len(sys.argv) < 2 or len(sys.argv) > 6:
         # User enters "-r" to refresh data from Google Sheets, "-d" to store data to
         # file instead of plotting it, "-e" to connect graph by effect size difference
-        # instead of common authors
-        print "Usage: {0} sheet_name [-r] [-d] [-e]".format(sys.argv[0])
+        # instead of common authors, "-s" for scatterplot of ES vs betweenness
+        print "Usage: {0} sheet_name [-r] [-d] [-e] [-s]".format(sys.argv[0])
         return -1
     # If needed, refresh data in input file
     if "-r" in sys.argv:
@@ -191,6 +192,9 @@ def main():
                 get_data.get_data_papers(g, filename + "_es")
             else:
                 get_data.get_data_papers(g, filename)
+        # Create scatterplot of ES vs vertex betweenness if user enters "-s"
+        elif "-s" in sys.argv:
+            get_data.scatterplot(g)
         # Plot graph
         elif len(references) > 0:
             min_effect = min(float(g.vs['effect'][v.index]) for v in g.vs)

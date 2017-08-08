@@ -5,6 +5,23 @@ from reference_v2 import *
 from igraph import *
 import sys
 import os
+import matplotlib.pyplot as plt
+
+def vbetween(g):
+    i = 0
+    for v in g.vs:
+        betweenness = g.betweenness()[v.index]
+        g.vs[i]['betweenness'] = betweenness
+        i += 1
+    return g
+
+def ebetween(g):
+    i = 0
+    for e in g.es:
+        eb = g.edge_betweenness()[e.index]
+        g.es[i]['betweenness'] = eb
+        i += 1
+    return g
 
 # Gets network data (vertex/edge betweenness, clusters) from network of authors
 # and stores it in a file
@@ -64,7 +81,7 @@ def get_data_papers(g, filename):
         for v in g.vs:
             betweenness = g.betweenness()[v.index]
             g.vs[i]['betweenness'] = betweenness
-            i += 1
+            i += 1    
             if betweenness > 0:
                 vertices.append(v)
             if len(vertices) > 0:
@@ -149,3 +166,13 @@ def get_data_papers(g, filename):
             file.write(g.vs[e.target]['authors'][len(g.vs[e.target]['authors']) - 1].name + "]): %.2f\n" % e['betweenness'])
         if not data:
             os.remove(filename)
+
+# Creates a scatterplot of effect size vs vertex betweenness
+def scatterplot(g):
+    g = vbetween(g)
+    x = g.vs['betweenness']
+    y = g.vs['effect']
+    plt.scatter(x, y)
+    plt.xlabel('Betweenness centrality')
+    plt.ylabel('Effect size')
+    plt.show()
